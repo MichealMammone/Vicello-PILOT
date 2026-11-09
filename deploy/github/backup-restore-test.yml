@@ -1,0 +1,37 @@
+# Weekly automatic backup restore test.
+# Put this file in the GitHub repository at:  .github/workflows/backup-restore-test.yml   (at the top of the
+# repository, not inside the vicello-platform folder). See docs/backup-strategy.md, "Weekly restore test".
+# It downloads the newest off-site backup with a READ-ONLY key, decrypts it, restores it into a throw-away folder,
+# reprices every job, re-checks every issued quote and checks the backup is less than 26 hours old.
+# If anything is wrong the run fails and GitHub emails the repository owner.
+name: Weekly backup restore test
+
+on:
+  schedule:
+    - cron: '0 20 * * 0'   # every Sunday 20:00 UTC = Monday 6–7 am Sydney
+  workflow_dispatch: {}      # "Run workflow" button for a test whenever you like
+
+permissions:
+  contents: read
+
+jobs:
+  restore-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: vicello-platform
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Restore the newest off-site backup and check it
+        run: node scripts/restore-test.js
+        env:
+          OFFSITE_ENDPOINT: ${{ secrets.OFFSITE_ENDPOINT }}
+          OFFSITE_BUCKET: ${{ secrets.OFFSITE_BUCKET }}
+          OFFSITE_READ_KEY_ID: ${{ secrets.OFFSITE_READ_KEY_ID }}
+          OFFSITE_READ_SECRET: ${{ secrets.OFFSITE_READ_SECRET }}
+          BACKUP_ENCRYPTION_KEY: ${{ secrets.BACKUP_ENCRYPTION_KEY }}
+          MAX_BACKUP_AGE_HOURS: '26'

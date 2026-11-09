@@ -1,0 +1,77 @@
+VICELLO PRICING PLATFORM 0.3.1 - TEST CHECKLIST (dashboard drill-down and pricing)
+=================================================================================
+Tick each box [x] as you go. Write anything odd under "Notes" at the bottom.
+For the 0.3.0 changes (decimals, manual statuses, setup key, Full Price Book) also use
+UAT\2026-10-28_Rev01_v0.3.0-Test-Checklist.txt
+
+START THE DEMO
+  Double-click   UAT - Start Demo.cmd   -> opens http://localhost:4330
+  Sign in with the Owner details in   scripts\demo-credentials.json
+  The demo has 9 jobs by two staff members (Demo Owner, Demo Designer): open, won, in production and lost,
+  plus a "Price check - raw cost" job. If you used an earlier demo, run   UAT - Reset Demo.cmd   first.
+  Have the spreadsheet open next to it:  Material cost + Labour cost book pricing .xlsx
+
+
+A. DASHBOARD DRILL-DOWN (the dashboard should look exactly as before)
+[ ] Hover over a figure: it highlights. Click "Open quotes": a list of those jobs opens.
+[ ] Each list shows job, client, staff member, value, status. Click a column heading to sort; click again to reverse.
+[ ] Type in "Filter these records" to narrow the list. The count and total value update.
+[ ] Click a row: the job opens.
+[ ] Click "Won this month", "Active jobs", "Quoted margin": each shows the matching jobs.
+[ ] Click a Pipeline bar (e.g. Won): the jobs in that status. "Open in Jobs list" still goes to the Jobs page.
+[ ] Click a row in "Pipeline by designer": that person's jobs.
+[ ] Click "Win rate". Check: Win %, Loss %, Conversion %, Quote success rate, Total quotes, Jobs won, Jobs lost,
+    Revenue won, Revenue lost, then Staff performance (Demo Designer, Demo Owner) and Team.
+    Demo figures (all time): Win 60.0%, Loss 40.0%, 3 won, 2 lost.
+[ ] Change Period to "This month": figures recalculate.
+[ ] Inside Win rate, click "Jobs won": Job, Client, Staff, Quote value, Award date, Status, Notes.
+[ ] Inside Win rate, click "Jobs lost": Job, Client, Staff, Quote value, Date lost, Loss reason / notes
+    (e.g. "Quote R1 declined - Lost on price: went with a cheaper flat-pack quote").
+
+B. PRICES = SPREADSHEET (Product = Product, Price = Spreadsheet price)
+[ ] Open the job "Price check - raw cost (spreadsheet prices)". Price tier shows "Raw cost (spreadsheet price) (0%)".
+[ ] For each line, Book price = the spreadsheet TOTAL for that product, and Book total = Sell = Book price x Qty:
+      Base Cabinet - 16mm White HMR        5    x $502.00 = $2,510.00   [ ]
+      Wall cabinet - 16mm Black HMR        2.75 x $538.00 = $1,479.50   [ ]
+      Tall Cabinet - NAV Urban             1.5  x $964.00 = $1,446.00   [ ]
+      Drawer - Merivo (All Colours)        5    x $230.00 = $1,150.00   [ ]
+      Integration Service - Dishwasher 60cm 1   x $600.00 =   $600.00   [ ]
+      White HMR laundry chute              1    x $745.00 =   $745.00   [ ]  (spreadsheet TOTAL; see section D)
+      Bulkhead - Polytec Matt              3.2  x $139.00 =   $444.80   [ ]
+    (Lines show red only because 0% markup is below the 30% margin floor - the existing approval rule.)
+[ ] Change one quantity to 5 and check the Book total is exactly 5 x Book price.
+[ ] Open "Henderson residence - kitchen" (Retail tier). Each line shows Book price, Book total, and
+    "Sell (Retail +57.5%)" - the markup is named in the heading, nothing hidden.
+[ ] In a job, type "white hmr base" in Add item: each result is a single product with its book price
+    (e.g. "Base Cabinet - 16mm White HMR  $502.00/LM"). Pick it: the line shows exactly that product at $502.00,
+    even if the area's default finish is something else.
+[ ] Full Price Book: open Cabinetry. Products are listed one by one with book prices. Click one: exactly that
+    product is added. (The "... - this area's finish" rows still add using the area's finish, as before.)
+[ ] Pick any 5 products of your own from the spreadsheet, add them with quantity 5 on the raw-cost job,
+    and compare:  ____________________ [ ]  ____________________ [ ]  ____________________ [ ]
+                  ____________________ [ ]  ____________________ [ ]
+
+C. PRICE INTEGRITY CHECK
+[ ] Price book -> open "Material + Labour cost book (Oct 2026)" -> tab "Spreadsheet check".
+[ ] It runs by itself and shows: 548 spreadsheet products, Price mismatches 0, Missing 0, Not in spreadsheet 0.
+[ ] The list shows only the rows to look at: duplicate names (10), row 258 (no description), row 385.
+[ ] Tick "Show all 548 products": every product with Spreadsheet price = Price book price = Quote 1 unit,
+    and Quote 5 units = 5 x price.
+[ ] Type a product name in "Find a product or row".
+[ ] "Download report (CSV)" saves the full list; open it in Excel.
+[ ] "Check a different spreadsheet..." -> choose your copy of the spreadsheet -> same result.
+    (Optional: change one price in a COPY of the spreadsheet, check it -> that product shows "Price mismatch".)
+
+D. DECISIONS FOR VICELLO (from the report docs\2026-10-28_Rev01_Price-Integrity-Report.md)
+[ ] Row 385 White HMR laundry chute: spreadsheet TOTAL $745 leaves out its $130 material. Program uses $745.
+    Correct price is: ________
+[ ] Rows 646-650 named "Wall Cabinet - ...Farmers" but in the Tall section at tall prices; rows 590-594 have the
+    same names at wall prices. Correct names: ______________________________
+[ ] Row 258 has prices ($1,165) but no description. It is: ______________________________
+[ ] Should new jobs default to the Retail tier (as now) or Raw cost? ________
+
+RESULT
+  All passed?   [ ] Yes -> upload the package (docs\DEPLOYMENT.md, section 2)
+                [ ] No  -> list what failed below
+
+Notes:

@@ -1,0 +1,24 @@
+{
+  "name": "joinery-pricing-platform",
+  "productName": "Vicello Pricing Platform",
+  "version": "0.4.1",
+  "description": "Modular pricing, quoting and job-costing platform for kitchen and joinery manufacturers.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13 <25"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "node -e \"console.log('Nothing to build: the app runs as-is.')\"",
+    "dev": "node --watch-path=server --watch-path=shared server/index.js",
+    "test": "node --test \"tests/*.test.js\"",
+    "demo": "node scripts/create-demo.js",
+    "backup": "node scripts/backup.js",
+    "backup:offsite": "node scripts/offsite-backup.js",
+    "restore": "node scripts/restore.js",
+    "restore-test": "node scripts/restore-test.js",
+    "pricebook": "node scripts/build-pricebook.js",
+    "check-prices": "node scripts/check-prices.js"
+  }
+}

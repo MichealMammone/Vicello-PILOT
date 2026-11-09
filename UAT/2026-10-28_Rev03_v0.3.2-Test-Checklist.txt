@@ -1,0 +1,61 @@
+VICELLO PRICING PLATFORM 0.3.2 - TEST CHECKLIST (wording, KPIs, price book publishing control)
+=============================================================================================
+Tick each box [x] as you go. Write anything odd under "Notes" at the bottom.
+Earlier checklists (still valid): Rev02 (0.3.1 drill-down and pricing), Rev01 (0.3.0).
+
+START THE DEMO
+  Close any open demo window. Double-click   UAT - Reset Demo.cmd   (press Y), then   UAT - Start Demo.cmd
+  -> http://localhost:4330 . Sign in with the Owner details in   scripts\demo-credentials.json
+  The demo includes a draft price book "December 2026 supplier increase (demo draft)" (+3% on materials) and
+  4 open jobs, ready for section C.
+
+
+A. "LOST" IS NOW "MISSED"
+[ ] Dashboard -> Pipeline: the last bar says "Missed" (not "Lost").
+[ ] Win rate card says "Won vs missed, all time".
+[ ] Click the "Missed" pipeline bar: title "Pipeline - missed"; columns "Date missed", "Reason / notes".
+[ ] Jobs page: the status filter and status chips say "Missed". Open a job: the Status dropdown offers "Missed".
+[ ] Open "Taylor walk-in robe" -> Schedule tab: banner says "This job is marked missed...".
+[ ] Nowhere in reporting do you see Lost, Loss %, Jobs lost, Revenue lost.
+
+B. KPI CLEAN-UP (Jobs Quoted only)
+[ ] Click "Win rate". The cards are, in order: Jobs quoted, Jobs won, Jobs missed, Win %, Missed %,
+    Revenue won, Revenue missed, Conversion %.
+[ ] There is NO "Total quotes" card and NO "Quote success rate" card.
+[ ] Staff performance and Team tables: Staff member, Jobs quoted, Won, Missed, Win %, Missed %,
+    Revenue won, Revenue missed, Conversion %, Avg margin (won). NO "Quotes" column.
+[ ] Figures are unchanged from before (demo, all time): Jobs quoted 7, Won 3, Missed 2, Win 60.0%, Missed 40.0%,
+    Revenue won $12,187.68, Revenue missed $8,908.83.
+[ ] Click "Jobs missed": the two missed jobs with Date missed and Reason / notes.
+
+C. PRICE BOOK PUBLISHING - APPLY UPDATED PRICING TO EXISTING JOBS
+  Before you start, write down the "Sell ex GST" of these open jobs:
+      VIC-2026-0001 Henderson residence - kitchen     $16,997.65   (demo value)
+      VIC-2026-0002 Nguyen residence                  $42,312.40
+      VIC-2026-0007 Bennett kitchen refresh            $6,463.17
+      VIC-2026-0009 Price check - raw cost             $8,375.30
+[ ] Price book -> open "December 2026 supplier increase (demo draft)" -> press Publish...
+[ ] The window shows "Apply Updated Pricing To Existing Jobs" with the 4 open jobs, each with a checkbox,
+    client, current price, new price and change %. NOTHING is ticked to start with.
+[ ] Won / in-production jobs (Patel, Clarke, Lee) are NOT listed.
+[ ] Tick "Select all open jobs": all 4 ticked, button "Apply Selected (4) and Publish".
+[ ] Untick one job: count shows 3 of 4; the Select-all box shows partly ticked.
+[ ] "Deselect all": all unticked, button "Publish - leave all jobs unchanged".
+[ ] Cancel: nothing happens; the draft is still a draft.
+[ ] Publish... again. Tick ONLY Henderson and Price check. Press "Apply Selected (2) and Publish".
+[ ] Message: "Published. 2 jobs updated to the new prices; 2 kept their existing prices."
+[ ] Henderson and Price check: higher Sell ex GST, "Prices from" shows the December price book.
+[ ] Nguyen and Bennett: SAME Sell ex GST as written above, "Prices from" still the October price book,
+    every line unchanged (protected).
+[ ] Patel (won): unchanged.
+[ ] Henderson -> History: "Moved to newer prices - When published "December 2026 supplier increase (demo draft)"".
+[ ] Nguyen -> History: "Kept its existing prices - ... was published; this job was not selected ...".
+[ ] Settings -> Activity log: "apply new prices" entry with your name, date and time, the price book name,
+    effective date, jobs updated (VIC-2026-0001, VIC-2026-0009) and jobs kept (VIC-2026-0002, VIC-2026-0007).
+[ ] Nguyen can still be moved later on its own: open it -> Job -> Update to latest prices.
+
+RESULT
+  All passed?   [ ] Yes -> upload the package (docs\DEPLOYMENT.md, section 2)
+                [ ] No  -> list what failed below
+
+Notes:

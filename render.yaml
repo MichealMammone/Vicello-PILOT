@@ -1,0 +1,34 @@
+# OPTIONAL reference only. You do NOT need this file: deploy with Render → New → Web Service (see DEPLOY_TO_RENDER.md).
+# Render only reads render.yaml for "Blueprint" deployments; a normal Web Service ignores it.
+# It describes the same single web service, in case a Blueprint is ever wanted.
+services:
+  - type: web
+    name: vicello-platform
+    runtime: node
+    region: singapore
+    plan: starter              # a paid plan is needed for the disk that keeps your data
+    branch: main
+    buildCommand: npm install  # nothing to compile; there are no dependencies
+    startCommand: npm start    # runs: node server/index.js
+    healthCheckPath: /healthz
+    autoDeploy: true
+    disk:
+      name: data
+      mountPath: /var/data     # the database and backups live here
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      # Secrets: enter the values in Render → Environment (see .env.example). They are never stored in GitHub.
+      - key: SETUP_KEY
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: SMTP_FROM_EMAIL
+        sync: false

@@ -1,0 +1,72 @@
+VICELLO PRICING PLATFORM 0.3.0 - TEST CHECKLIST
+================================================
+Tick each box [x] as you go. Write anything odd under "Notes" at the bottom.
+
+START THE DEMO
+  Double-click   UAT - Start Demo.cmd   -> opens http://localhost:4330
+  Sign in with the Owner details in   scripts\demo-credentials.json
+  (First start builds a sample company with 3 jobs on the new Material + Labour price book.
+   To start again from scratch: close the demo window, run   UAT - Reset Demo.cmd .)
+
+
+1. DECIMALS (prices and measurements keep their cents / decimals)
+[ ] Open job "Henderson residence - kitchen". The first line shows 2.75 LM, not 3.
+[ ] Change a quantity to 1.35. Unit, total and margin update; the total shows cents.
+[ ] Area totals on the left and the job total at the top show cents (e.g. $16,997.65).
+[ ] Dashboard and Jobs list amounts show cents.
+[ ] Type 2.75 in Details -> Discount %. It is accepted (no "enter a valid value" message).
+[ ] Create a quote (step 2) and check the printed quote shows quantities like 2.75 LM.
+[ ] Price book -> open any product -> prices show two decimals (e.g. 9.00).
+
+2. QUOTES AND STATUSES ARE MANUAL
+[ ] On Henderson (status "Quoting"), press Create quote... The quote opens in a new tab.
+[ ] Back on the job: the Status box still says "Quoting" (creating a quote does not change it).
+[ ] Quotes tab: change the quote's Status dropdown to Accepted. Message says the job status is unchanged.
+[ ] Change it to Declined, then Issued. The job status never changes and no bookings are cancelled.
+[ ] Nothing is emailed anywhere. Print / Save as PDF is the only way the quote leaves the program.
+[ ] Set the job's Status box to Won and Save. Items are now locked (banner shows).
+[ ] Set it back to Quoted and Save. Items can be edited again.
+
+3. NEW PRICE BOOK
+[ ] Price book: "Material + Labour cost book (Oct 2026)" is the published version.
+[ ] Open Base cabinet: columns Material $, Hardware $, Factory $, Drafting $, Studio $, Install $.
+[ ] Pick 3-4 items and compare with the spreadsheet (Material cost + Labour cost book pricing .xlsx):
+    same name, same material, hardware and labour dollars, same total cost.
+      Item 1: ____________________________   matches?  [ ]
+      Item 2: ____________________________   matches?  [ ]
+      Item 3: ____________________________   matches?  [ ]
+[ ] Quote wording uses the spreadsheet name (e.g. "Base Cabinet - 16mm White HMR").
+[ ] Read docs\2026-10-28_Rev01_PriceBook-Import-Report.md and decide the 12 conflicts
+    (rows 646-650 named Wall Cabinet in the Tall section; duplicates 590-594; row 258 no name;
+     row 385 laundry chute total; rows 137 and 309 no price).
+
+4. FULL PRICE BOOK (in a job's Builder, under the "Add item" search)
+[ ] "Full Price Book" shows every category, all closed.
+[ ] Click a category: it opens and lists its items with "from $..." prices. Click again: it closes.
+[ ] Click an item: it is added to the area, and the category stays open.
+[ ] The search box still works the same as before (type "drawer").
+
+5. FIRST-TIME SETUP (setup key)
+  Close the demo window first if you like (they use different ports, both can run).
+  Double-click   UAT - Try First-Time Setup.cmd   -> opens http://localhost:4340
+[ ] The black window shows a framed "FIRST-TIME SETUP KEY:  XXXX-XXXX-XXXX".
+[ ] Type a wrong key and press Check key: a clear message appears under the box.
+[ ] Type the right key in lower case or without dashes, press Check key: "Key accepted".
+[ ] The job number prefix fills in by itself from the company name.
+[ ] A short password shows a message under the password box; "Show" reveals the password.
+[ ] Create company and sign in: you are signed in and told to add your team next.
+[ ] Close and reopen the setup test: a NEW blank copy starts (that one is wiped each time on purpose).
+    On the real site the key stays the same until setup is done.
+
+6. QUICK REGRESSION (things that should work as before)
+[ ] File -> New job, add areas from templates, Save, Save As.
+[ ] Schedule tab proposes events; Calendar shows confirmed events; drag one to another day.
+[ ] Budget & costs on "Patel laundry & linen": record a cost.
+[ ] Settings -> Users & access: add a designer; sign in as them; they cannot open Settings.
+[ ] Settings -> Backups -> Back up now, then Download.
+
+RESULT
+  All passed?   [ ] Yes -> upload the package (docs\DEPLOYMENT.md, section 2)
+                [ ] No  -> list what failed below
+
+Notes:

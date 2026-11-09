@@ -1,0 +1,508 @@
+<title>Vicello Data Protection Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a single reading column for the report, with full-width tables in their own scroll boxes. Accent = deep teal, like a site-plan ink. */
+:root {
+  --bg: #f6f7f8;
+  --surface: #ffffff;
+  --fg: #1b2328;
+  --muted: #5a666e;
+  --line: #d9dee2;
+  --accent: #0d5e66;
+  --accent-soft: #e2f0f1;
+  --crit: #b3261e; --crit-bg: #fbe9e7;
+  --high: #a15c00; --high-bg: #fdf0dc;
+  --med: #5b5f00; --med-bg: #f2f3d8;
+  --ok: #1d6b3a; --ok-bg: #e3f3e8;
+  --code-bg: #eef1f3;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", Consolas, "Courier New", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12171a; --surface: #1a2125; --fg: #e3e8eb; --muted: #9aa7ae; --line: #2e383d;
+  --accent: #5fc4cc; --accent-soft: #163236;
+  --crit: #ff8a80; --crit-bg: #3a1b19; --high: #f5b54a; --high-bg: #3a2a12; --med: #d4d76a; --med-bg: #2e2f14;
+  --ok: #7bd69a; --ok-bg: #16301f; --code-bg: #222b30; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #12171a; --surface: #1a2125; --fg: #e3e8eb; --muted: #9aa7ae; --line: #2e383d;
+  --accent: #5fc4cc; --accent-soft: #163236;
+  --crit: #ff8a80; --crit-bg: #3a1b19; --high: #f5b54a; --high-bg: #3a2a12; --med: #d4d76a; --med-bg: #2e2f14;
+  --ok: #7bd69a; --ok-bg: #16301f; --code-bg: #222b30; color-scheme: dark; }
+
+body { background: var(--bg); color: var(--fg); font: 17px/1.6 var(--f-body); }
+.wrap { max-width: 920px; margin: 0 auto; padding-block: 40px 80px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; }
+.wrap > * { min-width: 0; }
+h1, h2, h3 { font-family: var(--f-display); font-stretch: 85%; line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 2.9rem); font-weight: 800; }
+h2 { font-size: 1.65rem; font-weight: 750; padding-top: 12px; border-top: 2px solid var(--fg); }
+h2 .n { color: var(--accent); margin-right: .35em; }
+h3 { font-size: 1.15rem; font-weight: 700; }
+p, ul, ol { margin: 0; max-width: 68ch; }
+ul, ol { padding-left: 1.3em; display: grid; gap: 4px; }
+section { display: grid; gap: 16px; }
+a { color: var(--accent); }
+code, .mono { font-family: var(--f-mono); font-size: .84em; }
+code { background: var(--code-bg); padding: 1px 5px; border-radius: 3px; overflow-wrap: anywhere; }
+.eyebrow { font: 600 .78rem/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 22px; color: var(--muted); font-size: .95rem; }
+.lede { font-size: 1.15rem; max-width: 62ch; }
+
+.verdict { background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--crit); padding: 18px 22px; display: grid; gap: 10px; }
+.verdict.after { border-left-color: var(--ok); }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.two > * { min-width: 0; }
+
+.toc { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2px 24px; padding: 0; list-style: none; max-width: none; font-size: .98rem; }
+.toc a { text-decoration: none; }
+.toc a:hover, .toc a:focus-visible { text-decoration: underline; }
+.toc .n { font-family: var(--f-mono); color: var(--muted); margin-right: 6px; }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: .93rem; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--line); }
+th { font: 600 .74rem/1.3 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); background: var(--bg); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num { text-align: right; white-space: nowrap; }
+.tbl.wide table { min-width: 720px; }
+
+.pill { display: inline-block; font: 600 .72rem/1 var(--f-mono); letter-spacing: .05em; text-transform: uppercase; padding: 4px 7px; border-radius: 3px; white-space: nowrap; }
+.crit { color: var(--crit); background: var(--crit-bg); }
+.high { color: var(--high); background: var(--high-bg); }
+.med { color: var(--med); background: var(--med-bg); }
+.ok { color: var(--ok); background: var(--ok-bg); }
+.no { color: var(--crit); font-weight: 700; }
+.yes { color: var(--ok); font-weight: 700; }
+
+.card { background: var(--surface); border: 1px solid var(--line); padding: 16px 18px; display: grid; gap: 10px; }
+.card h3 { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; justify-content: space-between; }
+.kv { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .9rem; color: var(--muted); }
+.kv b { color: var(--fg); font-family: var(--f-mono); font-weight: 600; }
+.steps { counter-reset: s; list-style: none; padding: 0; gap: 8px; }
+.steps > li { counter-increment: s; padding-left: 2.1em; position: relative; }
+.steps > li::before { content: counter(s); position: absolute; left: 0; top: .1em; width: 1.5em; height: 1.5em; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font: 600 .78rem/1.5em var(--f-mono); text-align: center; }
+.note { background: var(--accent-soft); padding: 12px 16px; max-width: none; }
+.diagram { background: var(--surface); border: 1px solid var(--line); padding: 12px; overflow-x: auto; }
+.diagram pre { margin: 0; }
+.caption { font-size: .88rem; color: var(--muted); }
+footer { color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 14px; }
+@media (max-width: 520px) { body { font-size: 16px; } th, td { padding: 8px 9px; } }
+</style>
+
+<div class="wrap">
+
+<header style="display:grid;gap:12px">
+  <div class="eyebrow">Scale Point Group · Technical review</div>
+  <h1>Vicello Data Protection Review</h1>
+  <div class="meta"><span>Vicello Pricing Platform 0.3.2</span><span>30 October 2026 · Rev 01</span><span>Prepared from the actual source code and the live Render setup</span></div>
+  <p class="lede">This review covers how the platform stores data, what could be lost, and the exact changes needed so that no business data is lost.</p>
+</header>
+
+<div class="two">
+  <div class="verdict">
+    <div class="eyebrow">Today</div>
+    <p><strong>Every copy of the data lives in one Render account.</strong> The database, the 14 automatic backups and Render's 7 daily snapshots all sit on, or next to, the same 1&nbsp;GB disk. If that disk, that service or that account is lost, every copy goes with it. The only copy that survives is a backup the owner downloads by hand. Up to a full day of work can be lost even when things go well.</p>
+  </div>
+  <div class="verdict after">
+    <div class="eyebrow">After the plan in section 9</div>
+    <p><strong>Encrypted copies go to a second, unrelated provider every 15 minutes</strong> that data changes. They are locked, so nobody can delete them, not even someone with the Render password. Old versions are kept for 7 years. A restore into a brand-new site takes about 30 minutes, the restore is tested automatically every week, and alerts go out if a backup is ever missed. Added running cost: about US$0–3 a month.</p>
+  </div>
+</div>
+
+<nav aria-label="Contents">
+  <ul class="toc">
+    <li><a href="#s1"><span class="n">1</span>Current architecture</a></li>
+    <li><a href="#s2"><span class="n">2</span>What could be lost</a></li>
+    <li><a href="#s3"><span class="n">3</span>Backup strategy</a></li>
+    <li><a href="#s4"><span class="n">4</span>Backup tools</a></li>
+    <li><a href="#s5"><span class="n">5</span>Disaster recovery</a></li>
+    <li><a href="#s6"><span class="n">6</span>Restore process</a></li>
+    <li><a href="#s7"><span class="n">7</span>Enterprise reference design</a></li>
+    <li><a href="#s8"><span class="n">8</span>Recommendations</a></li>
+    <li><a href="#s9"><span class="n">9</span>Implementation plan</a></li>
+  </ul>
+</nav>
+
+<!-- 1 -->
+<section id="s1">
+  <h2><span class="n">1</span>Current architecture review</h2>
+  <h3>How it works today</h3>
+  <ul>
+    <li><strong>One program, one file.</strong> It is a Node.js web server with no third-party packages. All business data is held in a single SQLite database file, <code>/var/data/platform.db</code>, which runs in WAL mode with foreign keys enforced.</li>
+    <li><strong>Hosting:</strong> one Render web service (Starter plan, Singapore region) with one 1&nbsp;GB persistent disk at <code>/var/data</code>. The disk can only be attached to one running copy of the program at a time.</li>
+    <li><strong>Code:</strong> GitHub repository <code>MichealMammone/vicello-platform</code>, uploaded through the GitHub website. Render deploys every commit automatically. Each release is also saved as a Rev zip in OneDrive.</li>
+    <li><strong>What the database holds:</strong> the company and its settings, users (with scrypt password hashes), sign-in sessions, every price book version, jobs, areas and lines, issued quotes, job costs, staff, leave, the calendar and the activity log. Clients' names, emails, phone numbers and site addresses are stored on jobs.</li>
+    <li><strong>Files and documents:</strong> there are no uploaded files. A quote is a frozen JSON copy with a SHA-256 hash, stored in the database and drawn as a web page. <em>Restoring the database therefore restores every quote exactly.</em></li>
+    <li><strong>Backups today:</strong> <code>VACUUM INTO</code> makes a clean, consistent copy while the program runs. It makes one automatic copy a day, keeps the last 14 and never deletes manual copies. All of them go to <code>/var/data/backups</code>, on the same disk as the database. Render also snapshots the disk once a day and keeps each snapshot for 7 days.</li>
+  </ul>
+
+  <div class="diagram">
+<pre class="mermaid">
+flowchart LR
+  U[Staff browsers] -->|HTTPS| R
+  GH[GitHub repo] -->|auto-deploy| R
+  subgraph RA[One Render account]
+    R[Web service<br/>Node 24, 1 instance] --> D[(1 GB disk /var/data)]
+    D --- DB[platform.db]
+    D --- BK[backups/ 14 daily copies]
+    D -.-> SN[Render snapshots<br/>daily, 7 days]
+  end
+  BK -.->|manual Download only| PC[Owner's PC]
+</pre>
+  </div>
+  <p class="caption">Today: the database and every automatic copy are inside the same Render account. The only thing outside it is a file someone remembers to download.</p>
+
+  <h3>Strengths to keep</h3>
+  <ul>
+    <li>The whole business fits in one small file. That makes backup and restore portable and fast; there's no cluster to rebuild.</li>
+    <li>With no dependencies, the program runs anywhere Node runs: Render, another cloud, or the office PC (<code>Start Pricing Platform.cmd</code>). That makes for an unusually good disaster fallback.</li>
+    <li>Published price books are locked by database triggers. Issued quotes never change and are hashed. Jobs are archived rather than deleted, and users are deactivated rather than deleted.</li>
+    <li>Saves use optimistic locking, so two people can't silently overwrite each other. There is an activity log, and 52 automated tests.</li>
+  </ul>
+
+  <h3>Findings</h3>
+  <div class="tbl wide"><table>
+    <thead><tr><th>#</th><th>Finding</th><th>Severity</th><th>Where it comes from</th></tr></thead>
+    <tbody>
+      <tr><td>F1</td><td>Automatic backups are written to the same disk as the database. A disk failure or a deleted disk takes the backups with it.</td><td><span class="pill crit">Critical</span></td><td><code>backup.service.js</code> writes to <code>config.backupDir</code> = <code>/var/data/backups</code></td></tr>
+      <tr><td>F2</td><td>The database, the backups and the snapshots all belong to one Render account. If someone takes over that account, or it is closed, or the service is deleted, every copy is lost. Snapshots belong to the service and go when it goes.</td><td><span class="pill crit">Critical</span></td><td>Render setup</td></tr>
+      <tr><td>F3</td><td>No automatic copy leaves Render. The off-site copy depends on someone pressing Download.</td><td><span class="pill crit">Critical</span></td><td>Settings → Backups → Download</td></tr>
+      <tr><td>F4</td><td>Up to 24 hours of work can be lost. There is one copy a day, made at the first hourly check after midnight UTC, which is about 10–11 am Sydney time. A failure at 10 am the next day loses all the previous day's quotes.</td><td><span class="pill high">High</span></td><td><code>autoBackupTick</code>, server clock in UTC</td></tr>
+      <tr><td>F5</td><td>A failed backup is only written to the server log. Nobody is told.</td><td><span class="pill high">High</span></td><td><code>server/index.js:108</code></td></tr>
+      <tr><td>F6</td><td>Backups are never checked or test-restored. A damaged copy would only be found when it is needed.</td><td><span class="pill high">High</span></td><td>No integrity check or restore test</td></tr>
+      <tr><td>F7</td><td>There is no simple way to load a backup into a new site. Today it means replacing <code>platform.db</code> by hand, which Render's web screens can't do easily. Render snapshots only restore to the same service.</td><td><span class="pill high">High</span></td><td><code>README.md</code> "Backups and restore"</td></tr>
+      <tr><td>F8</td><td>The platform, GitHub and Render accounts are protected by a password only. The app has no two-step sign-in. Taking over an account is the most likely way data would actually be lost.</td><td><span class="pill high">High</span></td><td>Owner/admin sign-in; account settings to confirm</td></tr>
+      <tr><td>F9</td><td>An upgrade changes the database structure automatically on start, with no backup taken first.</td><td><span class="pill med">Medium</span></td><td><code>server/db/database.js:51–57</code></td></tr>
+      <tr><td>F10</td><td>Saving a job replaces its areas and lines. The activity log records only the revision number and the total, so earlier versions of a job exist only in quotes and backups.</td><td><span class="pill med">Medium</span></td><td><code>jobs.service.js:262–271</code></td></tr>
+      <tr><td>F11</td><td>Some records are deleted permanently: job cost entries, area templates, staff leave, proposed calendar events and draft price books.</td><td><span class="pill med">Medium</span></td><td><code>DELETE</code> statements in the services</td></tr>
+      <tr><td>F12</td><td>Every GitHub commit deploys to the live data straight away. A wrong or malicious upload reaches the live site within minutes.</td><td><span class="pill med">Medium</span></td><td>Render auto-deploy</td></tr>
+      <tr><td>F13</td><td>Nothing watches the site from outside, so an outage is only noticed when staff complain.</td><td><span class="pill med">Medium</span></td><td>Only Render's health check</td></tr>
+      <tr><td>F14</td><td>Only one person (Scale Point Group) knows how to restore. The account recovery emails are a further single point of failure.</td><td><span class="pill med">Medium</span></td><td>Process</td></tr>
+      <tr><td>F15</td><td>Downloaded backups are not encrypted. They contain client contact details and password hashes. Data is hosted in Singapore, outside Australia.</td><td><span class="pill med">Medium</span></td><td>Backup format; Render region</td></tr>
+      <tr><td>F16</td><td>There is one instance, so each deploy restarts the site for about 30–60 seconds. This is acceptable at Vicello's size.</td><td><span class="pill ok">Low</span></td><td>Disk limits it to one instance</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Single points of failure</h3>
+  <p>The single points of failure are: the one Render disk; the one Render account; the one region; the owner's email inbox, which can reset every other account; the one person who knows the restore steps; and GitHub, as the only route code takes to the live site.</p>
+</section>
+
+<!-- 2 -->
+<section id="s2">
+  <h2><span class="n">2</span>Data protection: what could be lost</h2>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Event</th><th>Lost today</th><th>Lost after the plan</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Server or disk failure</strong></td><td>Restore from a Render snapshot: everything since the last snapshot, up to 24 h. If the disk itself is gone, the on-disk backups go too.</td><td>At most 15 minutes. The off-site copy is already in Backblaze.</td></tr>
+      <tr><td><strong>Render account compromised or closed</strong></td><td><span class="no">Everything</span>, unless someone happened to download a backup recently.</td><td>At most 15 minutes. The locked off-site copies can't be deleted from Render, and can't be deleted from Backblaze either until their lock runs out.</td></tr>
+      <tr><td><strong>Database corrupted</strong> (bad upgrade, bug, full disk)</td><td>Back to the last good daily copy, if any copy is good. Copies are never checked.</td><td>Back to the last copy that passed its check, at most 15 min old. A copy is also taken just before every upgrade.</td></tr>
+      <tr><td><strong>Data deleted by mistake</strong> (lines removed and saved, a cost entry deleted)</td><td>Only recoverable by restoring the whole database from a daily copy, which undoes everyone else's work since then.</td><td>Single-job restore from any version in the last 30 days (15-min steps), 13 months (daily) or 7 years (monthly). Nobody else's work is touched.</td></tr>
+      <tr><td><strong>GitHub compromised</strong></td><td>Data is safe, but bad code could be deployed against it. The code is safe in OneDrive Rev zips.</td><td>Same, plus locked backups that a bad deploy can't delete, and protected deploys.</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="tbl"><table>
+    <thead><tr><th>Protection</th><th>Today</th><th>Needed</th></tr></thead>
+    <tbody>
+      <tr><td>Automatic backups</td><td><span class="yes">Yes</span>, daily</td><td>Every 15 min when data has changed</td></tr>
+      <tr><td>Off-site (different provider)</td><td><span class="no">No</span></td><td>Backblaze B2, a separate login</td></tr>
+      <tr><td>Can't be deleted (immutable)</td><td><span class="no">No</span></td><td>B2 Object Lock, compliance mode</td></tr>
+      <tr><td>Multiple versions</td><td>14 daily + 7 snapshots</td><td>30 days at 15 min, 13 months daily, 7 years monthly</td></tr>
+      <tr><td>Encrypted backups</td><td><span class="no">No</span></td><td>AES-256-GCM, key held outside Render too</td></tr>
+      <tr><td>Backup checked</td><td><span class="no">No</span></td><td>Integrity check + checksum on every copy</td></tr>
+      <tr><td>Restore tested</td><td><span class="no">No</span></td><td>Automatically every week, by hand every quarter</td></tr>
+      <tr><td>Alerts on failure</td><td><span class="no">No</span></td><td>Email or SMS within 2 hours of a missed backup</td></tr>
+      <tr><td>Two-step sign-in</td><td><span class="no">No</span> (app) / to confirm (GitHub, Render)</td><td>On every account that can reach the data</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- 3 -->
+<section id="s3">
+  <h2><span class="n">3</span>Backup strategy</h2>
+  <p>The plan follows the <strong>3-2-1-1-0 rule</strong>: 3 copies of the data, on 2 kinds of storage, 1 of them off-site, 1 of them impossible to delete, and 0 errors when tested.</p>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Copy</th><th>Where</th><th>How often</th><th>Kept for</th><th>How</th><th>Protects against</th></tr></thead>
+    <tbody>
+      <tr><td>Live database</td><td>Render disk</td><td>Continuous</td><td>n/a</td><td>Automatic</td><td>n/a</td></tr>
+      <tr><td>Quick-undo copies</td><td>Render disk <code>backups/</code></td><td>Daily, and just before every upgrade</td><td>14 daily copies; upgrade copies 90 days</td><td>Automatic (exists today)</td><td>Bad upgrade, fast rollback</td></tr>
+      <tr><td>Render snapshots</td><td>Render, same account</td><td>Daily</td><td>7 days</td><td>Automatic (exists today)</td><td>Disk-level mistakes</td></tr>
+      <tr><td><strong>Off-site recent</strong></td><td>Backblaze B2 <code>recent/</code></td><td>Every 15 min <em>if data changed</em></td><td>30 days, locked</td><td>Automatic (new)</td><td>Disk loss, account loss, ransomware, mistakes</td></tr>
+      <tr><td><strong>Off-site daily</strong></td><td>Backblaze B2 <code>daily/</code></td><td>Once a day, 11 pm Sydney</td><td>13 months, locked 30 days</td><td>Automatic (new)</td><td>Problems found weeks later</td></tr>
+      <tr><td><strong>Off-site monthly</strong></td><td>Backblaze B2 <code>monthly/</code></td><td>1st of each month</td><td>7 years, locked</td><td>Automatic (new)</td><td>Tax and records (the ATO asks for 5 years), disputes</td></tr>
+      <tr><td>Offline copy</td><td>The owner's USB drive or OneDrive</td><td>Quarterly</td><td>Owner's choice</td><td>Manual (Download)</td><td>Losing both cloud providers</td></tr>
+      <tr><td>Code</td><td>GitHub + Rev zips in OneDrive + B2 <code>code/</code></td><td>Each release</td><td>Forever</td><td>Rev zip (exists); B2 copy (new)</td><td>GitHub loss</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>Why 15 minutes "if changed":</strong> the database is under 5&nbsp;MB, so a copy takes well under a second and costs almost nothing to store. Nothing is uploaded overnight or at weekends when nobody is working. Publishing a price book or issuing a quote also triggers a copy within 2 minutes, so the most important events are protected almost at once.</p>
+  <p><strong>Storage needed:</strong> about 3.5&nbsp;GB of recent copies, 2&nbsp;GB of daily copies and 0.4&nbsp;GB of monthly copies, which is inside Backblaze's 10&nbsp;GB free allowance (copies compress to about a third of their size).</p>
+</section>
+
+<!-- 4 -->
+<section id="s4">
+  <h2><span class="n">4</span>Recommended backup tools</h2>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Tool</th><th>Verdict</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Backblaze B2</strong> (S3-compatible API)</td><td><span class="pill ok">Use, primary off-site</span></td><td>A different company from Render, with its own login. Object Lock makes copies undeletable. The first 10&nbsp;GB is free, then US$6 per TB a month. The keys can be limited to "write only", so the live server can add copies but never delete them.</td></tr>
+      <tr><td>Render disk snapshots</td><td><span class="pill ok">Keep</span></td><td>Free and already on. Good for a fast rollback, but they sit in the same account, so they don't count as off-site.</td></tr>
+      <tr><td>Built-in <code>VACUUM INTO</code> copies</td><td><span class="pill ok">Keep and extend</span></td><td>Already makes consistent copies while the site runs. The plan adds a check, compression, encryption and upload on top.</td></tr>
+      <tr><td>Cloudflare R2</td><td><span class="pill med">Good alternative</span></td><td>Also S3-compatible, 10&nbsp;GB free, with bucket locks. Choose it if Vicello already uses Cloudflare. The same code works with it, because only settings change.</td></tr>
+      <tr><td>AWS S3, Sydney region</td><td><span class="pill med">Choose if data must stay in Australia</span></td><td>Same code and Object Lock, about US$0.15 a month at this size. Setup in AWS is more involved (IAM policies).</td></tr>
+      <tr><td>Litestream (continuous replication)</td><td><span class="pill med">Not now</span></td><td>It would cut possible loss to seconds, but it needs a second program running beside the app, which means changing the Render service to Docker. 15 minutes is the right trade-off for a quoting business. Revisit if the number of users grows a lot.</td></tr>
+      <tr><td>GitHub as a backup store</td><td><span class="pill crit">Never</span></td><td>Client data and password hashes would end up in code history for good. GitHub backs up the code only.</td></tr>
+      <tr><td>Managed PostgreSQL with point-in-time recovery</td><td><span class="pill med">Future</span></td><td>The right step when there are several companies or many users. See section 7.</td></tr>
+      <tr><td>Healthchecks.io + UptimeRobot</td><td><span class="pill ok">Use, alerts</span></td><td>Both free at this size. They email or text if a backup is missed or the site goes down.</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>Chosen combination:</strong> keep the built-in copies and Render snapshots for fast, local undo; send encrypted, locked copies to Backblaze B2 every 15 minutes for disaster recovery; keep a quarterly offline copy as the last resort; and use Healthchecks.io and UptimeRobot to report any failure. Each layer covers a different failure, and no single account can delete all of them.</p>
+</section>
+
+<!-- 5 -->
+<section id="s5">
+  <h2><span class="n">5</span>Disaster recovery plan</h2>
+  <p>Targets after the plan: <strong>RPO</strong> (the most work that can be lost) of 15 minutes. <strong>RTO</strong> (time until staff can work again) of 30 minutes on Render, or 1 hour on the office PC.</p>
+
+  <div class="two">
+    <div class="card">
+      <h3>Database deleted or corrupted <span class="pill high">RTO 15–30 min</span></h3>
+      <ol class="steps">
+        <li>Settings → Backups → pick the last copy marked "Checked ✓" → <strong>Restore</strong>. A safety copy of the current state is taken first.</li>
+        <li>If the site won't start, restore the latest Render snapshot (Render → Disks).</li>
+        <li>If the disk is gone, follow "Render unavailable" below.</li>
+      </ol>
+      <div class="kv"><span>Data lost <b>≤ 15 min</b></span><span>Limit: anyone signed in at the time must sign in again</span></div>
+    </div>
+    <div class="card">
+      <h3>App corrupted or bad deploy <span class="pill ok">RTO 5 min</span></h3>
+      <ol class="steps">
+        <li>Render → Events → previous deploy → <strong>Rollback</strong>.</li>
+        <li>If the bad version changed the database, restore its automatic pre-upgrade copy.</li>
+        <li>Fix the code, run the tests, and upload again.</li>
+      </ol>
+      <div class="kv"><span>Data lost <b>none</b></span><span>Limit: older versions can't read newer price book fields (see the deployment guide)</span></div>
+    </div>
+    <div class="card">
+      <h3>GitHub compromised or deleted <span class="pill med">RTO 1 h</span></h3>
+      <ol class="steps">
+        <li>Render → Settings → turn <strong>Auto-Deploy</strong> off at once.</li>
+        <li>Check the last deploys for anything you didn't upload. Roll back if needed.</li>
+        <li>Create a new repository, upload the latest Rev zip from OneDrive, and reconnect Render.</li>
+        <li>Change the GitHub password and keys, and review who has access.</li>
+      </ol>
+      <div class="kv"><span>Data lost <b>none</b></span><span>Limit: the site keeps running while this is done</span></div>
+    </div>
+    <div class="card">
+      <h3>Render unavailable or account lost <span class="pill high">RTO 1 h (PC), 2–4 h (new cloud)</span></h3>
+      <ol class="steps">
+        <li><strong>Fast fallback:</strong> on the office PC, run <code>Restore From Backup.cmd</code>. It downloads the latest copy from B2 and asks for the encryption key. Then double-click <code>Start Pricing Platform.cmd</code>. Staff use it on the office network.</li>
+        <li><strong>Permanent:</strong> create a new service (another Render account, Railway, Fly.io or DigitalOcean) and choose "Restore from backup" on the setup screen.</li>
+        <li>Point the web address at the new site and tell staff.</li>
+      </ol>
+      <div class="kv"><span>Data lost <b>≤ 15 min</b></span><span>Limit: the office-PC fallback only works inside the office until it is moved back to the cloud</span></div>
+    </div>
+    <div class="card">
+      <h3>Someone deletes or overwrites data <span class="pill ok">RTO 10 min</span></h3>
+      <ol class="steps">
+        <li>Find when it happened in Settings → Activity log.</li>
+        <li>Open the job → History → pick the version before the change → <strong>Restore this version</strong> (new job revisions).</li>
+        <li>For older or wider damage: Settings → Backups → <strong>Restore one job from a backup</strong>. Only that job is copied back.</li>
+      </ol>
+      <div class="kv"><span>Data lost <b>none</b></span><span>Limit: archived jobs can already be un-archived today</span></div>
+    </div>
+    <div class="card">
+      <h3>Render account taken over <span class="pill crit">RTO 1–4 h</span></h3>
+      <ol class="steps">
+        <li>Recover the account through Render support, and secure the email inbox first.</li>
+        <li>Rotate the B2 write key and the setup values. Nothing in B2 can have been deleted.</li>
+        <li>Restore into a clean service, as in "Render unavailable".</li>
+        <li>Reset all user passwords. The restore clears every sign-in session.</li>
+      </ol>
+      <div class="kv"><span>Data lost <b>≤ 15 min</b></span><span>Limit: anyone in the account could read the live data; report it under the Privacy Act if client data was exposed</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 -->
+<section id="s6">
+  <h2><span class="n">6</span>Data restore process</h2>
+  <p>Because quotes, users and price books all live in the one database, <strong>restoring one backup file brings back the whole business</strong>. That includes user accounts: everyone signs in with their usual password. There are no separate document files to restore today. If photos or plans are uploaded later, they will go to B2 with versioning, and each backup's manifest will list them.</p>
+
+  <h3>Restore into a fresh deployment (new build)</h3>
+  <ol class="steps">
+    <li>Create the new service with a disk from the same code, the way the deployment guide does. Or, on a PC, unzip the Rev package.</li>
+    <li>Open the site. The setup screen offers <strong>Set up a new company</strong> or <strong>Restore from a backup</strong>.</li>
+    <li>Enter the setup key from the logs. Then either choose <em>Latest off-site backup</em> (if the B2 read key is set on this service) or upload a backup file. Then enter the backup encryption key.</li>
+    <li>The program checks the copy before using it. It decrypts it, compares the SHA-256 checksum with the manifest, and runs <code>PRAGMA integrity_check</code> and <code>foreign_key_check</code>. It confirms the database version is one it can read.</li>
+    <li>It shows what it found: company name, last activity, and how many jobs, quotes, users and price books there are. You press <strong>Restore</strong>.</li>
+    <li>It installs the database, brings it up to date, clears old sign-in sessions, records "restored from backup …" in the activity log and takes a fresh backup straight away.</li>
+    <li>Sign in, open the latest job, and run Price book → Spreadsheet check (it should show 0 mismatches). Done.</li>
+  </ol>
+  <p class="note">The same check-then-restore runs from Settings → Backups on a live site (owner only, password re-entered, safety copy taken first), and from <code>Restore From Backup.cmd</code> on a PC. The code is the same in all three places, so the steps are tested once and work everywhere.</p>
+
+  <h3>Should restore tests be automated? Yes</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Test</th><th>How often</th><th>What it proves</th></tr></thead>
+    <tbody>
+      <tr><td>Self-check of every copy</td><td>Every backup</td><td>Integrity check passes, the upload checksum matches, and the row counts are written to the manifest</td></tr>
+      <tr><td>Automated full restore (GitHub Actions)</td><td>Weekly, Monday 6 am</td><td>Downloads the latest off-site copy with a read-only key, decrypts it, restores it into a throw-away server and runs the price check. Row counts must match the manifest, and the copy must be less than 1 hour older than the last change. It emails on failure.</td></tr>
+      <tr><td>Hands-on restore drill</td><td>Quarterly (30 min)</td><td>A person can follow the runbook: restore into a temporary Render service, sign in, check, then delete the service. The result is written in the log at the back of the runbook.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- 7 -->
+<section id="s7">
+  <h2><span class="n">7</span>Enterprise reference design</h2>
+  <p>If this were designed from scratch as a large SaaS product, this is how it would look. The right-hand column says what Vicello actually needs now.</p>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Layer</th><th>Enterprise standard</th><th>Vicello now</th></tr></thead>
+    <tbody>
+      <tr><td>Hosting</td><td>Containers on 2 or more instances behind a load balancer, in two availability zones (e.g. AWS ECS or Fly.io), set up as code with Terraform</td><td>One Render instance is enough for 5–15 staff (measured median response 2–12 ms)</td></tr>
+      <tr><td>Database</td><td>Managed PostgreSQL (AWS RDS Sydney, Neon or Supabase) with a standby replica and point-in-time recovery for 7–35 days</td><td>SQLite is the right choice for a single company. Move once a trigger in section 8 is met.</td></tr>
+      <tr><td>Files</td><td>Object storage with versioning and lifecycle rules</td><td>Not needed until uploads are added</td></tr>
+      <tr><td>Backups</td><td>Point-in-time recovery, plus a daily logical dump to a <em>separate cloud account</em> with Object Lock, kept 7 years</td><td>The plan gives the same result with locked B2 copies every 15 minutes</td></tr>
+      <tr><td>Monitoring</td><td>Uptime checks, error tracking (Sentry), central logs, backup heartbeats and an on-call roster</td><td>UptimeRobot plus Healthchecks.io; Render's own logs</td></tr>
+      <tr><td>Security</td><td>Single sign-on with enforced two-step sign-in, least-privilege roles, secrets manager, yearly penetration test, encryption everywhere</td><td>Two-step sign-in on every account; app two-step sign-in for owner/admin; separate keys per job</td></tr>
+      <tr><td>Change control</td><td>Pull requests with review, CI tests, a staging site and approval before production</td><td>Protected main branch, tests before each upload, and the UAT demo as a staging site</td></tr>
+      <tr><td>Disaster recovery</td><td>Written runbooks, a standby in a second region, and game days twice a year (RTO 1 h, RPO 5 min)</td><td>Runbook, office-PC fallback, quarterly drill (RTO 30–60 min, RPO 15 min)</td></tr>
+    </tbody>
+  </table></div>
+  <p>Building the full enterprise stack now would cost roughly US$150–400 a month and need ongoing specialist care, for little real benefit at Vicello's size. The plan below gets the "never lose data" result at a small fraction of that cost. The code is already built so it can move to PostgreSQL later: every service talks to the database through one small interface.</p>
+</section>
+
+<!-- 8 -->
+<section id="s8">
+  <h2><span class="n">8</span>Specific recommendations for this codebase</h2>
+
+  <h3><span class="pill crit">Immediate</span> This week, no code changes</h3>
+  <ol>
+    <li>Turn on two-step sign-in (an authenticator app) for <strong>GitHub, Render and the email inboxes</strong> that can reset them.</li>
+    <li>Until v0.4.0 is live: once the site is set up, the owner downloads a backup every Friday into a "Vicello Backups" folder in OneDrive.</li>
+    <li>Render → Account → Notifications: send failed deploys and service events to two people.</li>
+    <li>Create a free UptimeRobot monitor on <code>https://vicello-platform.onrender.com/api/state</code> every 5 minutes, alerting two people.</li>
+    <li>Write down who holds which login, and store the logins in a password manager that two trusted people can open.</li>
+  </ol>
+
+  <h3><span class="pill high">High</span> Release v0.4.0, Data protection</h3>
+  <ol>
+    <li><strong>Off-site backup service:</strong> compress, encrypt (AES-256-GCM) and upload to any S3-compatible bucket. Every 15 min when changed, 2 min after a publish or quote, and the daily and monthly tiers. Built with Node's own <code>crypto</code> and <code>zlib</code>, so there are still no dependencies.</li>
+    <li><strong>Backup manifest + checks:</strong> integrity check, foreign-key check, SHA-256, row counts, app and database version on every copy.</li>
+    <li><strong>Pre-upgrade copy:</strong> a backup is taken automatically before any database change runs (<code>database.js</code>).</li>
+    <li><strong>Restore from backup:</strong> on the setup screen, in Settings → Backups, and in <code>Restore From Backup.cmd</code>, as in section 6.</li>
+    <li><strong>Alerts and status:</strong> a Healthchecks.io ping after each good upload. Settings → Backups shows "Last off-site copy 12 min ago ✓", and owners see a red banner if it is more than 2 hours old.</li>
+    <li><strong>Weekly automated restore test</strong> (<code>.github/workflows/restore-test.yml</code>).</li>
+    <li><strong>DR runbook:</strong> a one-page printable version of section 5 with the drill log.</li>
+  </ol>
+
+  <h3><span class="pill med">Medium</span> v0.5</h3>
+  <ol>
+    <li><strong>Job version history:</strong> each save keeps a copy of the job, so any save can be undone, plus <em>restore one job from a backup</em>. This needs one new table, added alongside the existing ones; nothing existing changes.</li>
+    <li>Records that are now deleted for good (job costs, templates, leave) get a "removed" mark instead, so they can be brought back.</li>
+    <li>Two-step sign-in (authenticator app codes) for owner and admin accounts.</li>
+    <li>A GitHub ruleset on <code>main</code>: no deleting the branch, no force-push, and only the named people can commit.</li>
+    <li>An email to the owner on important events: a price book published, a backup restored, a new owner or admin added, repeated failed sign-ins.</li>
+  </ol>
+
+  <h3><span class="pill ok">Future scaling</span> When a trigger is met</h3>
+  <p>Triggers: a second company, more than about 30 people using it at once, the database passing 1&nbsp;GB, file uploads, or a need for zero-downtime deploys.</p>
+  <ol>
+    <li>A PostgreSQL adapter for <code>server/db/database.js</code>, and managed PostgreSQL in Sydney with point-in-time recovery (estimated about 48 hours of work, as in the hosting proposal).</li>
+    <li>Two or more instances, uploads in object storage, and error tracking.</li>
+    <li>The off-site backup design stays the same: <code>pg_dump</code> replaces <code>VACUUM INTO</code>.</li>
+  </ol>
+</section>
+
+<!-- 9 -->
+<section id="s9">
+  <h2><span class="n">9</span>Implementation plan</h2>
+
+  <h3>Tools and monthly cost</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Item</th><th>Purpose</th><th class="num">US$ / month</th></tr></thead>
+    <tbody>
+      <tr><td>Render Starter + 1&nbsp;GB disk</td><td>Hosting (existing)</td><td class="num">7.25</td></tr>
+      <tr><td>Backblaze B2 (Object Lock)</td><td>Off-site locked backups, about 6&nbsp;GB</td><td class="num">0.00 (10&nbsp;GB free)</td></tr>
+      <tr><td>Healthchecks.io (free plan)</td><td>Alert on missed backup</td><td class="num">0.00</td></tr>
+      <tr><td>UptimeRobot (free plan)</td><td>Alert on site down</td><td class="num">0.00</td></tr>
+      <tr><td>GitHub Actions (free 2,000 min)</td><td>Weekly restore test, about 3 min</td><td class="num">0.00</td></tr>
+      <tr><td>Bitwarden (2 users, optional paid)</td><td>Shared logins and the encryption key</td><td class="num">0–3.00</td></tr>
+      <tr><td colspan="2"><strong>Added cost</strong></td><td class="num"><strong>≈ 0–3</strong></td></tr>
+    </tbody>
+  </table></div>
+  <p class="caption">List prices at the time of writing. Confirm when signing up. Above 10&nbsp;GB, B2 costs US$0.006 per GB per month.</p>
+
+  <h3>Configuration steps</h3>
+  <p>Vicello's owner or Scale Point Group does these, because they involve creating accounts and handling keys.</p>
+  <ol class="steps">
+    <li><strong>Backblaze account</strong> under a Vicello email that is <em>not</em> the Render login. Turn on two-step sign-in.</li>
+    <li><strong>Bucket</strong> <code>vicello-backups-</code>plus a random suffix: private, <strong>Object Lock on</strong>, default retention <em>Compliance, 30 days</em>.</li>
+    <li><strong>Lifecycle rules:</strong> <code>recent/</code> deleted after 31 days; <code>daily/</code> deleted after 400 days; <code>monthly/</code> kept (each copy is locked for 7 years when uploaded).</li>
+    <li><strong>Two application keys</strong> for that bucket only. The <em>write key</em> may list and write but not delete, and goes into Render. The <em>read key</em> may list and read, and goes into the password manager and GitHub secrets for the restore test.</li>
+    <li><strong>Encryption key:</strong> Settings → Backups → <em>Create encryption key</em> shows it once. Save it in the password manager under two people, and keep a printed sealed copy in the office safe. <em>Without this key the backups can't be read.</em></li>
+    <li><strong>Render → Environment:</strong> <code>OFFSITE_ENDPOINT</code>, <code>OFFSITE_BUCKET</code>, <code>OFFSITE_KEY_ID</code>, <code>OFFSITE_SECRET</code>, <code>BACKUP_ENCRYPTION_KEY</code>, <code>BACKUP_HEARTBEAT_URL</code>. Save, and the service restarts.</li>
+    <li><strong>Healthchecks.io</strong> check with a 1-hour period and a 2-hour grace period, alerting two people by email and SMS. Paste its URL into <code>BACKUP_HEARTBEAT_URL</code>.</li>
+    <li><strong>GitHub</strong> → Settings → Secrets → add the read key and the encryption key, then upload the workflow file. Run it once by hand: it should pass.</li>
+    <li>Do the first hands-on restore drill and record it.</li>
+  </ol>
+
+  <h3>Automation workflows</h3>
+  <div class="diagram">
+<pre class="mermaid">
+flowchart LR
+  A[Data changes] --> B{15-min tick<br/>or publish/quote}
+  B --> C[VACUUM INTO copy]
+  C --> D[Integrity + FK check<br/>row counts, SHA-256]
+  D -->|fail| X[Red banner +<br/>no heartbeat → alert]
+  D -->|pass| E[gzip + AES-256-GCM]
+  E --> F[(Backblaze B2<br/>Object Lock)]
+  F --> G[Verify upload checksum]
+  G --> H[Ping Healthchecks.io]
+  F --> W[Weekly GitHub Action:<br/>download → restore → check]
+  W -->|fail| Y[Email alert]
+</pre>
+  </div>
+
+  <h3>Backup schedule (Sydney time)</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>When</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr><td>Every 15 minutes</td><td>Off-site copy to <code>recent/</code>, if anything changed</td></tr>
+      <tr><td>2 minutes after a price book publish or a quote</td><td>Extra off-site copy</td></tr>
+      <tr><td>Before every upgrade</td><td>On-disk copy and off-site copy, then the database update runs</td></tr>
+      <tr><td>11 pm daily</td><td>On-disk daily copy and off-site <code>daily/</code> copy</td></tr>
+      <tr><td>1st of the month, 11 pm</td><td>Off-site <code>monthly/</code> copy, locked for 7 years</td></tr>
+      <tr><td>Monday 6 am</td><td>Automated restore test</td></tr>
+      <tr><td>Quarterly</td><td>Hands-on restore drill and offline copy to USB</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Restore workflow</h3>
+  <p>As set out in <a href="#s6">section 6</a>: check, show the summary, confirm, install, update and sign in again. It is the same in all three places it runs.</p>
+
+  <h3>Documentation delivered with v0.4.0</h3>
+  <ul>
+    <li><code>docs/DISASTER-RECOVERY.md</code>: the one-page runbook from section 5, with contacts, where each key is kept and the drill log.</li>
+    <li><code>docs/BACKUP-SETUP.md</code>: the configuration steps above, with screenshots.</li>
+    <li>An updated <code>DEPLOYMENT.md</code> and user guide (Settings → Backups and Restore).</li>
+    <li>New automated tests: backup round-trip, damaged copy rejected, wrong key rejected, older backup upgraded on restore, single-job restore, and pre-upgrade copy.</li>
+  </ul>
+
+  <h3>Order of work</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Phase</th><th>Work</th><th>Who</th></tr></thead>
+    <tbody>
+      <tr><td>Now</td><td>Two-step sign-in, weekly manual download, uptime monitor, notifications (section 8, Immediate)</td><td>Vicello owner with Scale Point Group</td></tr>
+      <tr><td>Build</td><td>v0.4.0 data protection release: about 2–3 days to build and test</td><td>Scale Point Group</td></tr>
+      <tr><td>Go-live</td><td>Configuration steps 1–9, first drill, sign-off</td><td>Together, about 1.5 hours</td></tr>
+      <tr><td>Next</td><td>v0.5: job history, soft delete, app two-step sign-in</td><td>Scale Point Group</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>
+  Scale Point Group · Prepared for Vicello Kitchens · Findings refer to Vicello Pricing Platform 0.3.2 source files as delivered in <span class="mono">2026-10-28_Rev07</span>. Recovery times are targets to confirm in the first drill, not measured results.
+</footer>
+</div>

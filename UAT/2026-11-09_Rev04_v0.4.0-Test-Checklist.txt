@@ -1,0 +1,66 @@
+VICELLO PRICING PLATFORM 0.4.0 - TEST CHECKLIST (Rev04, 9 November 2026)
+==========================================================================
+Start the demo: double-click "UAT - Start Demo.cmd" (http://localhost:4330). Sign in as the Owner
+(scripts\demo-credentials.json). Tick each line, note anything odd.
+
+1. KPI WORDING AND "MISSED" (from 0.3.2 - re-check)
+[ ] Dashboard: Jobs quoted, Jobs won, Jobs missed, Win %, Missed %, Revenue won, Revenue missed. No "Quotes" figure.
+[ ] Click Jobs missed: list titled "Missed jobs". No "Lost" anywhere.
+
+2. PRICE BOOK UPDATE CONTROL (from 0.3.2 - re-check)
+[ ] Price book > "December 2026 supplier increase (demo draft)" > Publish...: open jobs listed, none ticked.
+[ ] Tick one job > "Apply Selected (1) and Publish". Only that job's total changes.
+[ ] That job > History: "Price book update applied" with book before -> after and sell before -> after.
+[ ] Another open job > History: "Price book update not applied".
+
+3. FULL PRICE BOOK LIST
+[ ] Open any Quoting job > Builder: "Full Price Book" under the item search, grouped by category.
+[ ] Click the heading: the whole list folds away; click again: it opens.
+[ ] "Expand all categories" / "Collapse all" work; clicking a product adds exactly that product.
+
+4. AREAS AND STATUSES
+[ ] Rename an area: type in the area title, OR double-click it in the area list, OR area menu > Rename area...
+[ ] Settings > Job statuses: rename "Won" to something else - the job status list shows the new name.
+    (Rename it back afterwards.)
+[ ] + Add status: "Awaiting deposit", counts as Won. It appears under Won in a job's status list.
+[ ] Delete a status no job uses: it goes. Delete "Awaiting builder" (used by the Harbour View job): it refuses and
+    offers to turn it off instead.
+
+5. REOPENING A CLOSED JOB
+[ ] Open "Morrison ensuite vanity" (Missed). Change status to Quoting: "Reopen job" asks for a reason.
+[ ] Cancel: status goes back to Missed, nothing changed.
+[ ] Do it again with a reason, Save. History shows "Job reopened" (highlighted) with Missed -> Quoting and the reason.
+
+6. JOB HISTORY
+[ ] On a Quoting job: change a quantity, delete an item, add an item, rename an area, type in Internal notes. Save.
+[ ] History: one "Saved" entry listing each change with previous -> new (deleted/added items marked).
+[ ] The filter at the top shows only status changes, only quotes, etc.
+
+7. WORKFLOW MILESTONES
+[ ] Settings > Workflow events > + Add milestone "Plan review" after Check measure (end), 3 days. It is listed.
+[ ] Delete "Plan review": warning shown, then deleted.
+[ ] Delete "Consultation": refused (it is on jobs' schedules) and offers to turn it off.
+
+8. QUOTE LAYOUT (compare with Levon Construction_Woolwich_Quote V03.pdf)
+[ ] Open "Harbour View residence" > Quotes > Open R1.
+[ ] VICELLO logo, QUOTATION, Builder / Client name / Job # / Version / Site address / Contact # / Consultant / Date.
+[ ] ITEM | PRICE EX GST; "Quote is based off..." line; VICELLO Standard Inclusions = Included.
+[ ] Areas numbered 1, 2, 2A (Provisional sum), 3...; "Not included in total" for empty and optional areas;
+    red "No allowance" lines, underlined elevation headings, blue provisional-sum note.
+[ ] Total / GST / Total including GST; "NOTE: ALL PRICES ARE EXCLUDING GST."; terms, definitions, payment schedule.
+[ ] Print / Save as PDF (Chrome or Edge): logo + details at the top and CLIENT APPROVAL + address footer at the
+    bottom of EVERY page; page numbers bottom right.
+[ ] Settings > Company & quotes: Licence number, Standard inclusions, Terms and Quote logo are editable.
+[ ] On a job: Details > Builder, Contact #, Quote is based on; area "On the quote: Provisional sum";
+    create a quote with and without "List the items under each area".
+
+9. BACKUPS AND RESTORE
+[ ] Settings > Backups & restore: off-site panel says "not set up" with the settings needed (expected on the demo).
+[ ] Back up now: a new backup marked "Checked".
+[ ] Change a job's name and save. Then Restore... the backup you just made: it shows the company, last activity and
+    counts first; enter your password; Restore now. You are signed out; sign in again - the job name is back.
+[ ] The list now has a "Before a restore" copy.
+[ ] Try First-Time Setup ("UAT - Try First-Time Setup.cmd"): open "Start from a backup instead", choose the backup
+    file you downloaded from the demo (Download button) - it restores and you can sign in with the demo login.
+
+Tested by: __________________   Date: ____________   Result: PASS / FAIL (notes overleaf)

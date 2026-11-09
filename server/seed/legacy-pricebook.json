@@ -1,0 +1,3632 @@
+{
+ "source": "Vicello_Master Job Managment Suite_V0.1.xlsx (Butlers Kitchen tab)",
+ "rows": [
+  {
+   "row": 4,
+   "header": "Base cabinets up to 650mm d x 900mm h"
+  },
+  {
+   "row": 5,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 16mm White HMR",
+   "labour": 400,
+   "material": 142
+  },
+  {
+   "row": 6,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": 152
+  },
+  {
+   "row": 7,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 174
+  },
+  {
+   "row": 8,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 231
+  },
+  {
+   "row": 9,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": 283
+  },
+  {
+   "row": 10,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": 285
+  },
+  {
+   "row": 11,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 292
+  },
+  {
+   "row": 12,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 379
+  },
+  {
+   "row": 13,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 21mm Polyurethane Shaker Profile (5mm recess) Including 500 & 600 Series",
+   "labour": 400,
+   "material": 386
+  },
+  {
+   "row": 14,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut) / 25mm Shaker profile 7mm recess",
+   "labour": 400,
+   "material": 436
+  },
+  {
+   "row": 15,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 451
+  },
+  {
+   "row": 16,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 18mm Naveneer G2S",
+   "labour": 400,
+   "material": 465
+  },
+  {
+   "row": 17,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 485
+  },
+  {
+   "row": 18,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 13mm Polytec Compact Laminate With No Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 495
+  },
+  {
+   "row": 19,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 498
+  },
+  {
+   "row": 20,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 19mm Eveneer Dusk G2S",
+   "labour": 400,
+   "material": 601
+  },
+  {
+   "row": 21,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - 13mm Polytec Compact Laminate With Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 750
+  },
+  {
+   "row": 22,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 770
+  },
+  {
+   "row": 23,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Cabinet - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": 870
+  },
+  {
+   "row": 25,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Open cabinet with shelving - 16mm White HMR (1x ADJ SHELF)",
+   "labour": 400,
+   "material": 100
+  },
+  {
+   "row": 26,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Open cabinet with shelving - 16mm Polytec Matt (1x ADJ SHELF)",
+   "labour": 400,
+   "material": 180
+  },
+  {
+   "row": 27,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Open cabinet with shelving - 16m Polytec Woodmatt / Smooth / Ravine (1x ADJ SHELF)",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 28,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Open cabinet with shelving - 25mm Polytec Woodmatt / Smooth / Ravine / Evenex 'Tuscan Oak' / NAV Urban Smooth",
+   "labour": 400,
+   "material": 360
+  },
+  {
+   "row": 29,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Open cabinet with shelving - 18mm Polyurethane Flat Profile / NAV Urban Diamond (1x ADJ SHELF)",
+   "labour": 400,
+   "material": 450
+  },
+  {
+   "row": 30,
+   "section": "Base cabinets up to 650mm d x 900mm h",
+   "name": "Base Open cabinet with shelving - 18mm Naveneer G2S",
+   "labour": 400,
+   "material": 1235
+  },
+  {
+   "row": 32,
+   "header": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline"
+  },
+  {
+   "row": 33,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 16mm White HMR",
+   "labour": 400,
+   "material": 153
+  },
+  {
+   "row": 34,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": 165
+  },
+  {
+   "row": 35,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 188
+  },
+  {
+   "row": 36,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 246
+  },
+  {
+   "row": 37,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": 299
+  },
+  {
+   "row": 38,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": 306
+  },
+  {
+   "row": 39,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 303
+  },
+  {
+   "row": 40,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 393
+  },
+  {
+   "row": 41,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 21mm Polyurethane Shaker Profile (5mm recess) Including 500 & 600 Series",
+   "labour": 400,
+   "material": 399
+  },
+  {
+   "row": 42,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 451
+  },
+  {
+   "row": 43,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 479
+  },
+  {
+   "row": 44,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 18mm Naveneer G2S",
+   "labour": 400,
+   "material": 502
+  },
+  {
+   "row": 45,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 516
+  },
+  {
+   "row": 46,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 13mm Polytec Compact Laminate With No Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 520
+  },
+  {
+   "row": 47,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 530
+  },
+  {
+   "row": 48,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 13mm Polytec Compact Laminate With Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 542
+  },
+  {
+   "row": 49,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - 19mm Eveneer Dusk G2S",
+   "labour": 400,
+   "material": 544
+  },
+  {
+   "row": 50,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 790
+  },
+  {
+   "row": 51,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Cabinet - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": 890
+  },
+  {
+   "row": 53,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 16mm White HMR (2x ADJ SHELF)",
+   "labour": 400,
+   "material": 105
+  },
+  {
+   "row": 54,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 16mm Polytec Matt (2x ADJ SHELF)",
+   "labour": 400,
+   "material": 142
+  },
+  {
+   "row": 55,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 16m Polytec Woodmatt / Smooth / Ravine (2x ADJ SHELF)",
+   "labour": 400,
+   "material": 225
+  },
+  {
+   "row": 56,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 25mm Polytec Woodmatt / Smooth / Ravine / Evenex 'Tuscan Oak' / NAV Urban Smooth",
+   "labour": 400,
+   "material": 350
+  },
+  {
+   "row": 57,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 18mm Polyurethane Flat Profile / NAV Urban Diamond (2x ADJ SHELF)",
+   "labour": 400,
+   "material": 420
+  },
+  {
+   "row": 58,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 32mm Polytec Woodmatt",
+   "labour": 400,
+   "material": 450
+  },
+  {
+   "row": 59,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 25mm Polyurethane Flat Profile",
+   "labour": 400,
+   "material": 550
+  },
+  {
+   "row": 60,
+   "section": "Wall cabinets up to 370mm d x 1000mm h - including underpanel and 30mm shadowline",
+   "name": "Wall Open cabinet with shelving - 18mm Naveneer G2S",
+   "labour": 400,
+   "material": 1120
+  },
+  {
+   "row": 62,
+   "header": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline"
+  },
+  {
+   "row": 63,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 16mm White HMR",
+   "labour": 400,
+   "material": 349
+  },
+  {
+   "row": 64,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": 377
+  },
+  {
+   "row": 65,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 426
+  },
+  {
+   "row": 66,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 506
+  },
+  {
+   "row": 67,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": 600
+  },
+  {
+   "row": 68,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": 640
+  },
+  {
+   "row": 69,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 620
+  },
+  {
+   "row": 70,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 731
+  },
+  {
+   "row": 71,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 21mm Polyurethane Shaker Profile (5mm recess) Including 500 & 600 Series",
+   "labour": 400,
+   "material": 747
+  },
+  {
+   "row": 72,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 18mm Naveneer G2S",
+   "labour": 400,
+   "material": 950
+  },
+  {
+   "row": 73,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 995
+  },
+  {
+   "row": 74,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 1009
+  },
+  {
+   "row": 75,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 1043
+  },
+  {
+   "row": 76,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 19mm Eveneer Dusk G2S",
+   "labour": 400,
+   "material": 1084
+  },
+  {
+   "row": 77,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 13mm Polytec Compact Laminate With No Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 888
+  },
+  {
+   "row": 78,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 1079
+  },
+  {
+   "row": 79,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - 13mm Polytec Compact Laminate With Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 1109
+  },
+  {
+   "row": 80,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 1250
+  },
+  {
+   "row": 81,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Cabinet - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": 1300
+  },
+  {
+   "row": 83,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - White HMR",
+   "labour": 400,
+   "material": 245
+  },
+  {
+   "row": 84,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - Polytec Matt",
+   "labour": 400,
+   "material": 374
+  },
+  {
+   "row": 85,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 646
+  },
+  {
+   "row": 86,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - Tesrol Superclean / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 1006
+  },
+  {
+   "row": 87,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - Polyurethane / 25mm Woodmatt / Evenex 'Tuscan Oak' / NAV Urban Smooth",
+   "labour": 400,
+   "material": 1095
+  },
+  {
+   "row": 88,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - NAV Urban Diamond",
+   "labour": 400,
+   "material": 1100
+  },
+  {
+   "row": 89,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 1120
+  },
+  {
+   "row": 90,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 2411
+  },
+  {
+   "row": 91,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Tall Open Pantry with shelving - 18mm Naveneer G2S",
+   "labour": 400,
+   "material": 3500
+  },
+  {
+   "row": 93,
+   "section": "Tall cabinets up to 650mm d x 2700mm h - including 30mm shadowline",
+   "name": "Angled shoe shelf in open cabinets (Per cabinet)",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 95,
+   "header": "Bulkhead - Up To 350mm High (P/LM)"
+  },
+  {
+   "row": 96,
+   "section": "Bulkhead - Up To 350mm High (P/LM)",
+   "name": "Bulkhead - Raw MDF",
+   "labour": 400,
+   "material": -345
+  },
+  {
+   "row": 97,
+   "section": "Bulkhead - Up To 350mm High (P/LM)",
+   "name": "Bulkhead - Polytec Matt",
+   "labour": 400,
+   "material": -335
+  },
+  {
+   "row": 98,
+   "section": "Bulkhead - Up To 350mm High (P/LM)",
+   "name": "Bulkhead - Polytec Woodmatt / Smooth / Ravine / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": -315
+  },
+  {
+   "row": 99,
+   "section": "Bulkhead - Up To 350mm High (P/LM)",
+   "name": "Bulkhead - Polyurethane Flat Profile / Venette / Feelwood / Superclean / NAV Diamond & Smooth / Sincro Evenex",
+   "labour": 400,
+   "material": -305
+  },
+  {
+   "row": 100,
+   "section": "Bulkhead - Up To 350mm High (P/LM)",
+   "name": "Bulkhead - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": -290
+  },
+  {
+   "row": 101,
+   "section": "Bulkhead - Up To 350mm High (P/LM)",
+   "name": "Bulkhead - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": -270
+  },
+  {
+   "row": 103,
+   "header": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)"
+  },
+  {
+   "row": 104,
+   "section": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)",
+   "name": "Mitred Bulkhead - Raw MDF",
+   "labour": 400,
+   "material": 350
+  },
+  {
+   "row": 105,
+   "section": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)",
+   "name": "Mitred Bulkhead - Polytec Matt",
+   "labour": 400,
+   "material": 400
+  },
+  {
+   "row": 106,
+   "section": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)",
+   "name": "Mitred Bulkhead - Polytec Woodmatt / Smooth / Ravine / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 500
+  },
+  {
+   "row": 107,
+   "section": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)",
+   "name": "Mitred Bulkhead - Polyurethane Flat Profile / Venette / Feelwood / Superclean / NAV Diamond & Smooth / Sincro Evenex",
+   "labour": 400,
+   "material": 800
+  },
+  {
+   "row": 108,
+   "section": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)",
+   "name": "Mitred Bulkhead - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 1400
+  },
+  {
+   "row": 109,
+   "section": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)",
+   "name": "Mitred Bulkhead - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 1600
+  },
+  {
+   "row": 111,
+   "section": "Mitred Bulkhead Small - Medium Job (No more then 6LM of bulkhead)",
+   "name": "AC Grill outs to mitred bulkheads (Sprayed in a mathcing colour)",
+   "labour": 400,
+   "material": 800
+  },
+  {
+   "row": 113,
+   "header": "Wall Pannelling P/LM"
+  },
+  {
+   "row": 114,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall Panelling - Polytec Matt",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 115,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall Panelling - Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 80
+  },
+  {
+   "row": 116,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall Panelling - Polyurethane Flat Profile / Venette / Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 120
+  },
+  {
+   "row": 117,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall Panelling - Tesrol Superclean",
+   "labour": 400,
+   "material": 150
+  },
+  {
+   "row": 118,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall Panelling - NAV Urban Smooth / Evenex 'Tuscan Oak'",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 119,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall Panelling - NAV Urban Diamond",
+   "labour": 400,
+   "material": 300
+  },
+  {
+   "row": 120,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall Panelling - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 350
+  },
+  {
+   "row": 121,
+   "section": "Wall Pannelling P/LM",
+   "name": "Wall panelling - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 400
+  },
+  {
+   "row": 125,
+   "header": "ITEMS CHARGED PER QUANTITY"
+  },
+  {
+   "row": 127,
+   "header": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)"
+  },
+  {
+   "row": 128,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 16mm White HMR",
+   "labour": 400,
+   "material": 463
+  },
+  {
+   "row": 129,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": 472
+  },
+  {
+   "row": 130,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 490
+  },
+  {
+   "row": 131,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 547
+  },
+  {
+   "row": 132,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": 590
+  },
+  {
+   "row": 133,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": 600
+  },
+  {
+   "row": 134,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 620
+  },
+  {
+   "row": 135,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 680
+  },
+  {
+   "row": 136,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 21mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": 685
+  },
+  {
+   "row": 137,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 725
+  },
+  {
+   "row": 138,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 750
+  },
+  {
+   "row": 139,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 776
+  },
+  {
+   "row": 140,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 13mm Polytec Compact Laminate With No Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 728
+  },
+  {
+   "row": 141,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 787
+  },
+  {
+   "row": 142,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 13mm Polytec Compact Laminate With Frame (With White/Black Rhino board Carcass)",
+   "labour": 400,
+   "material": 797
+  },
+  {
+   "row": 143,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 850
+  },
+  {
+   "row": 144,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": 950
+  },
+  {
+   "row": 145,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm Tesrol Design / Profile 560 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 146,
+   "section": "Appliance Tower up to 600mm d x 2700mm h - including 2x drawers below ovens (1x 600mm Oven Tower)",
+   "name": "Tall Appliance Cabinet - 18mm Tesrol Design / Profile 600 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 148,
+   "header": "Bar Back Panel (1x Panel 3000mm x 880mm)"
+  },
+  {
+   "row": 149,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 16mm White HMR",
+   "labour": 400,
+   "material": -251
+  },
+  {
+   "row": 150,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": -221
+  },
+  {
+   "row": 151,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 152,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": -148
+  },
+  {
+   "row": 153,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 154,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": -10
+  },
+  {
+   "row": 155,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 0
+  },
+  {
+   "row": 156,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 27
+  },
+  {
+   "row": 157,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 21mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": 45
+  },
+  {
+   "row": 158,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 220
+  },
+  {
+   "row": 159,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 235
+  },
+  {
+   "row": 160,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 30
+  },
+  {
+   "row": 161,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 177
+  },
+  {
+   "row": 162,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 163,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": 350
+  },
+  {
+   "row": 164,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm Tesrol Design / Profile 560 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 165,
+   "section": "Bar Back Panel (1x Panel 3000mm x 880mm)",
+   "name": "Bar Back - 18mm Tesrol Design / Profile 600 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 167,
+   "header": "Base End Panels (1x Panel 650mm x 900mm)"
+  },
+  {
+   "row": 168,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 16mm White HMR",
+   "labour": 400,
+   "material": -285
+  },
+  {
+   "row": 169,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": -276
+  },
+  {
+   "row": 170,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": -258
+  },
+  {
+   "row": 171,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": -252
+  },
+  {
+   "row": 172,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": -230
+  },
+  {
+   "row": 173,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": -220
+  },
+  {
+   "row": 174,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": -210
+  },
+  {
+   "row": 175,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": -209
+  },
+  {
+   "row": 176,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 21mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": -204
+  },
+  {
+   "row": 177,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": -255
+  },
+  {
+   "row": 178,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": -245
+  },
+  {
+   "row": 179,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": -208
+  },
+  {
+   "row": 180,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 13mm Polytec Compact Laminate With No Frame (With PVC Carcass)",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 181,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 182,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 183,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - Farmers Doors Slimline Oak Stained (8mm recess) / 32mm end panels Poly &Woodmatt",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 184,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base end panel - 19mm Eveneer Dusk G2S",
+   "labour": 400,
+   "material": -30
+  },
+  {
+   "row": 185,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm Tesrol Design / Profile 560 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 186,
+   "section": "Base End Panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 18mm Tesrol Design / Profile 600 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 187,
+   "header": "25mm base end panels (1x Panel 650mm x 900mm)"
+  },
+  {
+   "row": 188,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm White HMR",
+   "labour": 400,
+   "material": -280
+  },
+  {
+   "row": 189,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": -270
+  },
+  {
+   "row": 190,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": -230
+  },
+  {
+   "row": 191,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Nikpol Feelwood (Board does not come in 25mm)",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 192,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Polyurethane Flat Profile",
+   "labour": 400,
+   "material": -270
+  },
+  {
+   "row": 193,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm NAV Urban Smooth / Sincro Evenex",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 194,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": -180
+  },
+  {
+   "row": 195,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": -170
+  },
+  {
+   "row": 196,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": -160
+  },
+  {
+   "row": 197,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": -100
+  },
+  {
+   "row": 198,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": -80
+  },
+  {
+   "row": 199,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": -170
+  },
+  {
+   "row": 200,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 201,
+   "section": "25mm base end panels (1x Panel 650mm x 900mm)",
+   "name": "Base End Panel - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": -120
+  },
+  {
+   "row": 203,
+   "header": "Wall End Panels (1x Panel 370mm x 1000mm)"
+  },
+  {
+   "row": 204,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 16mm White HMR",
+   "labour": 400,
+   "material": -291
+  },
+  {
+   "row": 205,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": -282
+  },
+  {
+   "row": 206,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": -264
+  },
+  {
+   "row": 207,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": -258
+  },
+  {
+   "row": 208,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": -235
+  },
+  {
+   "row": 209,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": -215
+  },
+  {
+   "row": 210,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": -220
+  },
+  {
+   "row": 211,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": -215
+  },
+  {
+   "row": 212,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 21mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": -210
+  },
+  {
+   "row": 213,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": -261
+  },
+  {
+   "row": 214,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": -251
+  },
+  {
+   "row": 215,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": -216
+  },
+  {
+   "row": 216,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 13mm Polytec Compact Laminate With No Frame",
+   "labour": 400,
+   "material": -220
+  },
+  {
+   "row": 217,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": -220
+  },
+  {
+   "row": 218,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": -210
+  },
+  {
+   "row": 219,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - Farmers Doors Slimline Oak Stained (8mm recess) / 32mm end panels Poly &Woodmatt",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 220,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 19mm Eveneer Dusk G2S",
+   "labour": 400,
+   "material": -154
+  },
+  {
+   "row": 221,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm Tesrol Design / Profile 560 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 222,
+   "section": "Wall End Panels (1x Panel 370mm x 1000mm)",
+   "name": "Wall End Panel - 18mm Tesrol Design / Profile 600 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 224,
+   "header": "Tall End Panels (1x Panel 650mm x 2700mm)"
+  },
+  {
+   "row": 225,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 16mm White HMR",
+   "labour": 400,
+   "material": -260
+  },
+  {
+   "row": 226,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": -243
+  },
+  {
+   "row": 227,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": -197
+  },
+  {
+   "row": 228,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": -181
+  },
+  {
+   "row": 229,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm Polyurethane Flat Profile/NAV Elements",
+   "labour": 400,
+   "material": -140
+  },
+  {
+   "row": 230,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel /Sincro Evenex",
+   "labour": 400,
+   "material": -135
+  },
+  {
+   "row": 231,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": -120
+  },
+  {
+   "row": 232,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": -85
+  },
+  {
+   "row": 233,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 21mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": -69
+  },
+  {
+   "row": 234,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 30
+  },
+  {
+   "row": 235,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 50
+  },
+  {
+   "row": 236,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": -65
+  },
+  {
+   "row": 237,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Polyurethane Scandinavian Profile / 32mm end panels Poly &Woodmatt",
+   "labour": 400,
+   "material": 30
+  },
+  {
+   "row": 238,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 35
+  },
+  {
+   "row": 239,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": 40
+  },
+  {
+   "row": 240,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 19mm Eveneer Dusk G2S",
+   "labour": 400,
+   "material": 300
+  },
+  {
+   "row": 241,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm Tesrol Design / Profile 560 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 242,
+   "section": "Tall End Panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 18mm Tesrol Design / Profile 600 series",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 244,
+   "header": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)"
+  },
+  {
+   "row": 245,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm White HMR",
+   "labour": 400,
+   "material": -240
+  },
+  {
+   "row": 246,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": -224
+  },
+  {
+   "row": 247,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": -178
+  },
+  {
+   "row": 248,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Nikpol Feelwood (Board does not come in 25mm)",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 249,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Polyurethane Flat Profile",
+   "labour": 400,
+   "material": -230
+  },
+  {
+   "row": 250,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm NAV Urban Smooth / Sincro Evenex / 32mm Woodmatt",
+   "labour": 400,
+   "material": -110
+  },
+  {
+   "row": 251,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 5
+  },
+  {
+   "row": 252,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 40
+  },
+  {
+   "row": 253,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Polyurethane Shaker Profile (5mm recess) / 32mm Polyurethane",
+   "labour": 400,
+   "material": 60
+  },
+  {
+   "row": 254,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 130
+  },
+  {
+   "row": 255,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - 25mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 150
+  },
+  {
+   "row": 256,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel- 25mm Polyurethane Scandinavian Profile",
+   "labour": 400,
+   "material": 100
+  },
+  {
+   "row": 257,
+   "section": "25mm / 32mm tall end panels (1x Panel 650mm x 2700mm)",
+   "name": "Tall End Panel - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 150
+  },
+  {
+   "row": 259,
+   "header": "Sqaure Edge Benchtops (1x 1000mm x 650mm)"
+  },
+  {
+   "row": 260,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 33 - Polytec Matt",
+   "labour": 400,
+   "material": -170
+  },
+  {
+   "row": 261,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 33 - Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": -100
+  },
+  {
+   "row": 262,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 33 - Polyurethane Flat Profile / Venette / Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 263,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 33 - Tesrol Superclean / NAV Smooth / Sincro Evenex",
+   "labour": 400,
+   "material": 50
+  },
+  {
+   "row": 264,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 33 - NAV Urban Diamond",
+   "labour": 400,
+   "material": 90
+  },
+  {
+   "row": 265,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 33 - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 150
+  },
+  {
+   "row": 266,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 33 - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 200
+  },
+  {
+   "row": 268,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 38-50mm - Polytec Matt",
+   "labour": 400,
+   "material": -70
+  },
+  {
+   "row": 269,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 38-50mm - Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 0
+  },
+  {
+   "row": 270,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 38-50mm - Polyurethane Flat Profile / Venette / Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 50
+  },
+  {
+   "row": 271,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 38-50mm - Tesrol Superclean / NAV Smooth / Sincro Evenex",
+   "labour": 400,
+   "material": 200
+  },
+  {
+   "row": 272,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 38-50mm - NAV Urban Diamond",
+   "labour": 400,
+   "material": 220
+  },
+  {
+   "row": 273,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 38-50mm - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 274,
+   "section": "Sqaure Edge Benchtops (1x 1000mm x 650mm)",
+   "name": "Square edge benchtop 38-50mm - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 300
+  },
+  {
+   "row": 276,
+   "header": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d"
+  },
+  {
+   "row": 277,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - White HMR",
+   "labour": 400,
+   "material": 472
+  },
+  {
+   "row": 278,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Polytec Matt",
+   "labour": 400,
+   "material": 493
+  },
+  {
+   "row": 279,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 534
+  },
+  {
+   "row": 280,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Feelwood / NAV Smooth / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 548
+  },
+  {
+   "row": 281,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Polyurethane Flat Profile",
+   "labour": 400,
+   "material": 624
+  },
+  {
+   "row": 282,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": 650
+  },
+  {
+   "row": 283,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 670
+  },
+  {
+   "row": 284,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 800
+  },
+  {
+   "row": 285,
+   "section": "Mirror shaving cabinet <1000mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 837
+  },
+  {
+   "row": 287,
+   "header": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d"
+  },
+  {
+   "row": 288,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - White HMR",
+   "labour": 400,
+   "material": 515
+  },
+  {
+   "row": 289,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Polytec Matt",
+   "labour": 400,
+   "material": 541
+  },
+  {
+   "row": 290,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 602
+  },
+  {
+   "row": 291,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Feelwood / NAV Smooth / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 623
+  },
+  {
+   "row": 292,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Polyurethane Flat Profile",
+   "labour": 400,
+   "material": 674
+  },
+  {
+   "row": 293,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": 700
+  },
+  {
+   "row": 294,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 720
+  },
+  {
+   "row": 295,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - American Oak Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 800
+  },
+  {
+   "row": 296,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "Mirrored shaving cabinet w/ end panels - Black Butt Veneer w/ Polyurethane",
+   "labour": 400,
+   "material": 887
+  },
+  {
+   "row": 298,
+   "section": "Mirror shaving cabinet up to 1500mm w x 900mm h x 180mm d",
+   "name": "2 Hour Consultation in Showroom",
+   "labour": 400,
+   "material": 0
+  },
+  {
+   "row": 300,
+   "header": "Hardware"
+  },
+  {
+   "row": 301,
+   "section": "Hardware",
+   "name": "Drawer - Anataro White",
+   "labour": 400,
+   "material": -300
+  },
+  {
+   "row": 302,
+   "section": "Hardware",
+   "name": "Drawer - Merivo (All Colours)",
+   "labour": 400,
+   "material": -270
+  },
+  {
+   "row": 303,
+   "section": "Hardware",
+   "name": "Drawer - Intivo",
+   "labour": 400,
+   "material": -260
+  },
+  {
+   "row": 304,
+   "section": "Hardware",
+   "name": "Drawer - Legrabox (16mm ONLY)",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 305,
+   "section": "Hardware",
+   "name": "Drawer - Movento (Use this drawer for laundry pul out shelf or pul out shelf appliance cabinet)",
+   "labour": 400,
+   "material": -100
+  },
+  {
+   "row": 306,
+   "section": "Hardware",
+   "name": "Push to Open drawer",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 308,
+   "section": "Hardware",
+   "name": "Drawer - Finista Edge Drawer set 93 Matt 500 40Kg",
+   "labour": 400,
+   "material": -330
+  },
+  {
+   "row": 309,
+   "section": "Hardware",
+   "name": "Drawer - Finista Edge Drawer set 174 Matt 500 40Kg",
+   "labour": 400,
+   "material": -320
+  },
+  {
+   "row": 310,
+   "section": "Hardware",
+   "name": "Drawer - Finista Edge Drawer set 238 Matt 500 40Kg",
+   "labour": 400,
+   "material": -300
+  },
+  {
+   "row": 312,
+   "section": "Hardware",
+   "name": "Inner Drawer - Antaro White",
+   "labour": 400,
+   "material": -280
+  },
+  {
+   "row": 313,
+   "section": "Hardware",
+   "name": "Inner Drawer - Legrabox & Merivo (16mm ONLY)",
+   "labour": 400,
+   "material": -170
+  },
+  {
+   "row": 314,
+   "section": "Hardware",
+   "name": "Inner Drawer - Legrabox C with glass front (16mm ONLY)",
+   "labour": 400,
+   "material": -100
+  },
+  {
+   "row": 316,
+   "section": "Hardware",
+   "name": "Hinges - silver ($ per kitchen approx 30 hinges) included in LM rate",
+   "labour": 400,
+   "material": -270
+  },
+  {
+   "row": 317,
+   "section": "Hardware",
+   "name": "Hinges - onyx ($ per kitchen approx 30 hinges)",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 319,
+   "section": "Hardware",
+   "name": "Bin drawer 2x buckets (400mm-600mm)",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 321,
+   "section": "Hardware",
+   "name": "Under sink pull out twin bin",
+   "labour": 400,
+   "material": 0
+  },
+  {
+   "row": 323,
+   "section": "Hardware",
+   "name": "Grass File Rail (Filing Drawer)",
+   "labour": 400,
+   "material": -300
+  },
+  {
+   "row": 325,
+   "section": "Hardware",
+   "name": "Bi-fold with top track - One side only",
+   "labour": 400,
+   "material": 400
+  },
+  {
+   "row": 327,
+   "section": "Hardware",
+   "name": "Bi-fold appliance cabinet (mechanism only + Tall Rate)",
+   "labour": 400,
+   "material": 200
+  },
+  {
+   "row": 329,
+   "section": "Hardware",
+   "name": "Hafele Concepta III Pocket Door system - One side only",
+   "labour": 400,
+   "material": 2850
+  },
+  {
+   "row": 330,
+   "section": "Hardware",
+   "name": "Hafele Folding Concepta III Door System - Two door (If 4 doors x2)",
+   "labour": 400,
+   "material": 5600
+  },
+  {
+   "row": 331,
+   "section": "Hardware",
+   "name": "Lift Up Pocket door system One Mechanism Only",
+   "labour": 400,
+   "material": 1600
+  },
+  {
+   "row": 333,
+   "section": "Hardware",
+   "name": "HAWA Clipo 36 Sliding door track from Hafele (Door size 1030mm W X 2200MM H)",
+   "labour": 400,
+   "material": 400
+  },
+  {
+   "row": 335,
+   "section": "Hardware",
+   "name": "Black aluminim wall cabinet doors with glass insert (clear or reeded) Carcass not included",
+   "labour": 400,
+   "material": 350
+  },
+  {
+   "row": 337,
+   "section": "Hardware",
+   "name": "LED extrusion with diffuser rebated. Electrical by owner. Up to 2400mm",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 339,
+   "section": "Hardware",
+   "name": "LED lights from furnware 6mm wide 6m in length (Warm White Or Cool White)",
+   "labour": 400,
+   "material": 50
+  },
+  {
+   "row": 341,
+   "section": "Hardware",
+   "name": "Vertical LED lighting with diffuser (Mostly used in wardrobe designs) (1x length up tp 2400mm)",
+   "labour": 400,
+   "material": -300
+  },
+  {
+   "row": 343,
+   "section": "Hardware",
+   "name": "Integration Service - Single fridge or freezer",
+   "labour": 400,
+   "material": 200
+  },
+  {
+   "row": 344,
+   "section": "Hardware",
+   "name": "Integration Service - French door fridge (F&P)",
+   "labour": 400,
+   "material": 600
+  },
+  {
+   "row": 345,
+   "section": "Hardware",
+   "name": "Integration Service - Dishwasher 60cm",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 346,
+   "section": "Hardware",
+   "name": "Integration Service - Dishdrawer",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 348,
+   "section": "Hardware",
+   "name": "Hafele Wall Bed Bettlift without mattress (Art 271.92.132)",
+   "labour": 400,
+   "material": 3250
+  },
+  {
+   "row": 350,
+   "section": "Hardware",
+   "name": "Hafele Foldaway bed fitting Teleletto Style (Queen Bed) without mattress (271.91.512)",
+   "labour": 400,
+   "material": 2500
+  },
+  {
+   "row": 352,
+   "section": "Hardware",
+   "name": "Hafele Comfort II 230mm Pull-Out Base Unit (545.53.660) codes are different for LHS or RHS access.",
+   "labour": 400,
+   "material": 150
+  },
+  {
+   "row": 353,
+   "section": "Hardware",
+   "name": "Hafele Comfort II 300mm Pull-Out Base Unit (545.53.662) codes are different for LHS or RHS access.",
+   "labour": 400,
+   "material": 163
+  },
+  {
+   "row": 354,
+   "section": "Hardware",
+   "name": "Hafele Comfort II 400mm Pull-Out Base Unit (545.53.664) codes are different for LHS or RHS access.",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 356,
+   "section": "Hardware",
+   "name": "Blum HK Aventos NON servo Drive (1 door lift up) 1x Cabinet",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 357,
+   "section": "Hardware",
+   "name": "Blum HK Aventos servo Drive (1 door lift up) 1x Cabinet",
+   "labour": 400,
+   "material": 700
+  },
+  {
+   "row": 358,
+   "section": "Hardware",
+   "name": "Blum HF Aventos NON servo Drive (2 door lift up) 1x Cabinet",
+   "labour": 400,
+   "material": 60
+  },
+  {
+   "row": 359,
+   "section": "Hardware",
+   "name": "Blum HF Aventos servo Drive (2 door lift up) 1x Cabinet",
+   "labour": 400,
+   "material": 900
+  },
+  {
+   "row": 361,
+   "section": "Hardware",
+   "name": "3x Blum Servi Drive HF With 1 standard HF for rangehood cabinet",
+   "labour": 400,
+   "material": 2600
+  },
+  {
+   "row": 363,
+   "section": "Hardware",
+   "name": "4x Blum standard HF",
+   "labour": 400,
+   "material": 1150
+  },
+  {
+   "row": 365,
+   "section": "Hardware",
+   "name": "Hafele Bifold / Pocket door system 2x doors",
+   "labour": 400,
+   "material": 5600
+  },
+  {
+   "row": 366,
+   "section": "Hardware",
+   "name": "Hafele Bifold / Pocket door system 4x doors",
+   "labour": 400,
+   "material": 7600
+  },
+  {
+   "row": 368,
+   "section": "Hardware",
+   "name": "Hafele Technician call out to factory to set up hardware with factory team (Must for Bifold pocket system)",
+   "labour": 400,
+   "material": 100
+  },
+  {
+   "row": 370,
+   "section": "Hardware",
+   "name": "Hafele One Touch (Different to PTO) this mech pops the door out and is installed at the top of the carcass not the edge",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 372,
+   "section": "Hardware",
+   "name": "Hafele finetta Flush 50 406.11.285 406.11.690 Double cabinet sliding door pull then slide (2x doors 915 x 1640)",
+   "labour": 400,
+   "material": 2500
+  },
+  {
+   "row": 374,
+   "section": "Hardware",
+   "name": "ZETR Powerpoint cut outs",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 376,
+   "section": "Hardware",
+   "name": "Hafele pull out pantry unit - Convoy Centro to suit 300mm cab width (O/A Height of 2000-2100mm) - 545.81.501",
+   "labour": 400,
+   "material": 1600
+  },
+  {
+   "row": 378,
+   "section": "Hardware",
+   "name": "FINISTA JEWELLERY TRAY INSERT BLACK VELVET 473MM X 600-1000MM",
+   "labour": 400,
+   "material": 200
+  },
+  {
+   "row": 380,
+   "section": "Hardware",
+   "name": "Tibo’s pricing for 3mm Solid Brass Frame with Waxed Finish for mirror size 900x1200mm with radius corners",
+   "labour": 400,
+   "material": 2100
+  },
+  {
+   "row": 381,
+   "section": "Hardware",
+   "name": "Jeremey Price for 3mm Stainless Steel Frame w/ Brass look powdercoated finish for the same size above",
+   "labour": 400,
+   "material": 1100
+  },
+  {
+   "row": 383,
+   "section": "Hardware",
+   "name": "TRIO DRAWER HAFELE",
+   "labour": 400,
+   "material": 350
+  },
+  {
+   "row": 385,
+   "section": "Hardware",
+   "name": "Acoufelt Opus Range Priced Pm2",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 387,
+   "section": "Hardware",
+   "name": "Lincoln Sentry drawer locks",
+   "labour": 400,
+   "material": -350
+  },
+  {
+   "row": 389,
+   "section": "Hardware",
+   "name": "Fold down ironing board with stand 1-472-022 Lincoln",
+   "labour": 400,
+   "material": 200
+  },
+  {
+   "row": 391,
+   "section": "Hardware",
+   "name": "Mirror Polished All Around 600mm Wide x 900mm High (No Substrate)",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 392,
+   "section": "Hardware",
+   "name": "Mirror Polished All Around 900mm Wide x 1200mm High (No Substrate)",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 393,
+   "section": "Hardware",
+   "name": "Mirror Polished All Around 600mm Wide x 2400mm High (No Substrate)",
+   "labour": 400,
+   "material": 50
+  },
+  {
+   "row": 395,
+   "header": "Drawer Inserts"
+  },
+  {
+   "row": 396,
+   "section": "Drawer Inserts",
+   "name": "1450055 - Lincoln Sentry Orgaline utensil stainless steel 500mm 60VUI6",
+   "labour": 400,
+   "material": -130
+  },
+  {
+   "row": 397,
+   "section": "Drawer Inserts",
+   "name": "145000 - Lincoln Sentry Orgaline cutlery and utensil stainless steel 500mm KI4-H-",
+   "labour": 400,
+   "material": -160
+  },
+  {
+   "row": 398,
+   "section": "Drawer Inserts",
+   "name": "1455733 - Lincoln Sentry Ambialine ZC7S550BS3 cutlery insert suits 550NL - orion grey",
+   "labour": 400,
+   "material": -60
+  },
+  {
+   "row": 400,
+   "header": "Laundry Hampers / 450mm W"
+  },
+  {
+   "row": 401,
+   "section": "Laundry Hampers / 450mm W",
+   "name": "SYB95.450.237.WH Furnware Symetra twin bin of 2x 37L buckets with pull out shelf - 450mm W",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 402,
+   "section": "Laundry Hampers / 450mm W",
+   "name": "Hafele 503.55.785 laundry hamper, hideaway concelo laundry range, 1x 60L hamper - 450mm W",
+   "labour": 400,
+   "material": 350
+  },
+  {
+   "row": 403,
+   "section": "Laundry Hampers / 450mm W",
+   "name": "Tanova 450mm wide laundry hamoper with metal basket LTDS45.165.WH",
+   "labour": 400,
+   "material": 650
+  },
+  {
+   "row": 404,
+   "section": "Laundry Hampers / 450mm W",
+   "name": "Finista Edge UNI-HAMPER 450cw White Multi Fit Incl 1 x58L Hamper",
+   "labour": 400,
+   "material": -20
+  },
+  {
+   "row": 406,
+   "header": "Laundry Hampers / 600mm W"
+  },
+  {
+   "row": 407,
+   "section": "Laundry Hampers / 600mm W",
+   "name": "LTDS60.236.WH Furnware Laundry hamper /2x 36L plastic buckets - 600mm W (as per showroom)",
+   "labour": 400,
+   "material": 550
+  },
+  {
+   "row": 408,
+   "section": "Laundry Hampers / 600mm W",
+   "name": "LTDS60.1100L.WH Furnware Laundry hamper / 1x 100L metal buckets - 600mm W (as per showroom)",
+   "labour": 400,
+   "material": 950
+  },
+  {
+   "row": 409,
+   "section": "Laundry Hampers / 600mm W",
+   "name": "TBTL100.DIV.WH.FG Furnware Laundry Basket Divider Only, To Suit 100L Laundry Basket, Metal, White",
+   "labour": 400,
+   "material": -200
+  },
+  {
+   "row": 410,
+   "section": "Laundry Hampers / 600mm W",
+   "name": "Finista Edge Uni-Hamper 600cw White Multi Fit incl 2 x 43L Hampers",
+   "labour": 400,
+   "material": 30
+  },
+  {
+   "row": 412,
+   "header": "Hanging Rails"
+  },
+  {
+   "row": 413,
+   "section": "Hanging Rails",
+   "name": "1x hanging rail in laundry",
+   "labour": 400,
+   "material": -300
+  },
+  {
+   "row": 414,
+   "section": "Hanging Rails",
+   "name": "3-6x hanging rails in robe",
+   "labour": 400,
+   "material": -100
+  },
+  {
+   "row": 417,
+   "header": "Laundry Chute"
+  },
+  {
+   "row": 418,
+   "section": "Laundry Chute",
+   "name": "White HMR laundry chute",
+   "labour": 400,
+   "material": 150
+  },
+  {
+   "row": 419,
+   "section": "Laundry Chute",
+   "name": "*Cabinets to conceal chute is an additional cost",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 421,
+   "header": "Steccawood - Pricing for material from Polytec Website + the below labour pricing"
+  },
+  {
+   "row": 422,
+   "section": "Steccawood - Pricing for material from Polytec Website + the below labour pricing",
+   "name": "Steccawood w/ spacing",
+   "labour": 400,
+   "material": 1400
+  },
+  {
+   "row": 423,
+   "section": "Steccawood - Pricing for material from Polytec Website + the below labour pricing",
+   "name": "Steccawood w/ no spacing",
+   "labour": 400,
+   "material": 800
+  },
+  {
+   "row": 425,
+   "header": "Joinery Handles"
+  },
+  {
+   "row": 426,
+   "section": "Joinery Handles",
+   "name": "Shark edge fingerpull - All pre-finished melamine",
+   "labour": 400,
+   "material": 450
+  },
+  {
+   "row": 427,
+   "section": "Joinery Handles",
+   "name": "Shark edge fingerpull - All MDF polyurethane",
+   "labour": 400,
+   "material": 50
+  },
+  {
+   "row": 428,
+   "section": "Joinery Handles",
+   "name": "Square edge fingerpull - All pre-finished melamine",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 429,
+   "section": "Joinery Handles",
+   "name": "Square edge fingerpull - All MDF polyurethane",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 430,
+   "section": "Joinery Handles",
+   "name": "20mm overhang (handle less) - all materials",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 431,
+   "section": "Joinery Handles",
+   "name": "Touch catch (handle less) - all materials ($20 1x PTO)",
+   "labour": 400,
+   "material": -380
+  },
+  {
+   "row": 432,
+   "section": "Joinery Handles",
+   "name": "Laminate OR Polyurethane mitred drawer handle",
+   "labour": 400,
+   "material": -340
+  },
+  {
+   "row": 433,
+   "section": "Joinery Handles",
+   "name": "Laminate OR Polyurethane mitred base cabinet door handle",
+   "labour": 400,
+   "material": -340
+  },
+  {
+   "row": 434,
+   "section": "Joinery Handles",
+   "name": "Laminate OR Polyurethane mitred wall cabinet door handle",
+   "labour": 400,
+   "material": -340
+  },
+  {
+   "row": 435,
+   "section": "Joinery Handles",
+   "name": "Laminate OR Polyurethane mitred tall cabinet door handle (full height)",
+   "labour": 400,
+   "material": -290
+  },
+  {
+   "row": 436,
+   "section": "Joinery Handles",
+   "name": "Routed fingerpull - Polyurethane ONLY ($250 1x Handle)",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 437,
+   "section": "Joinery Handles",
+   "name": "Rebate handles - All pre-finished melamine ($30 1x handle)",
+   "labour": 400,
+   "material": -370
+  },
+  {
+   "row": 438,
+   "section": "Joinery Handles",
+   "name": "Rebate handles - All MDF polyruethane ($30 1x handle)",
+   "labour": 400,
+   "material": -370
+  },
+  {
+   "row": 439,
+   "section": "Joinery Handles",
+   "name": "Rebate handles by Farmers Doors (ea)",
+   "labour": 400,
+   "material": -375
+  },
+  {
+   "row": 440,
+   "section": "Joinery Handles",
+   "name": "J-Scoop handles (ea)",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 441,
+   "section": "Joinery Handles",
+   "name": "Polyurethane sharkedge handle x1 (Base or drawer)",
+   "labour": 400,
+   "material": -360
+  },
+  {
+   "row": 442,
+   "section": "Joinery Handles",
+   "name": "Polyurethane shark edge handle for tall door x1",
+   "labour": 400,
+   "material": -310
+  },
+  {
+   "row": 443,
+   "section": "Joinery Handles",
+   "name": "Polyurethane mitred handle x1 (Base or drawer)",
+   "labour": 400,
+   "material": -340
+  },
+  {
+   "row": 444,
+   "section": "Joinery Handles",
+   "name": "Polyurethane mitred handle for tall door x 1",
+   "labour": 400,
+   "material": -290
+  },
+  {
+   "row": 445,
+   "section": "Joinery Handles",
+   "name": "Over extended handle detail 16mm thick biscuited to top of door with 10mm rebate below to allow for fingerpull",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 447,
+   "section": "Joinery Handles",
+   "name": "Jpull handles for non-poly (Laminated doors not edged sprayed in poly matched color)",
+   "labour": 400,
+   "material": 0
+  },
+  {
+   "row": 449,
+   "section": "Joinery Handles",
+   "name": "Edge White HMR carcass in edging the match doors and panels (Not veneer) ed. Edge white HMR in woodmatt",
+   "labour": 400,
+   "material": 100
+  },
+  {
+   "row": 450,
+   "section": "Joinery Handles",
+   "name": "Black HMR internal carcass (ilo white)",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 452,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - Polytec Matt",
+   "labour": 400,
+   "material": 30
+  },
+  {
+   "row": 453,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - Polytec Woodmatt / Smooth / Ravine / NAV Smooth",
+   "labour": 400,
+   "material": 60
+  },
+  {
+   "row": 454,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - Polyurethane / Feelwood",
+   "labour": 400,
+   "material": 80
+  },
+  {
+   "row": 455,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - Tesrol Superclean / NAV Urban Smooth",
+   "labour": 400,
+   "material": 98
+  },
+  {
+   "row": 456,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - NAV Urban Diamond / Evenex 'Tuscan Oak'",
+   "labour": 400,
+   "material": 99
+  },
+  {
+   "row": 457,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - Tasmanian Oak veneer with clear matt Polyurethane stain",
+   "labour": 400,
+   "material": 450
+  },
+  {
+   "row": 458,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - American Oak veneer with clear matt Polyurethane stain",
+   "labour": 400,
+   "material": 475
+  },
+  {
+   "row": 459,
+   "section": "Joinery Handles",
+   "name": "50mm mitred floating shelf up to 1200mm wide - Black Butt veneer with clear matt Polyurethane stain",
+   "labour": 400,
+   "material": 490
+  },
+  {
+   "row": 461,
+   "header": "Microwave Pocket Base - 1x drawer below (600mm Wide)"
+  },
+  {
+   "row": 462,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 16mm White HMR",
+   "labour": 400,
+   "material": 276
+  },
+  {
+   "row": 463,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": 297
+  },
+  {
+   "row": 464,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 342
+  },
+  {
+   "row": 465,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 18mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 397
+  },
+  {
+   "row": 466,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 18mm Polyurethane Flat Profile",
+   "labour": 400,
+   "material": 419
+  },
+  {
+   "row": 467,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 18mm NAV Urban Smooth/ 21mm Polyurethane Flat Panel / Sincro Evenex",
+   "labour": 400,
+   "material": 450
+  },
+  {
+   "row": 468,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 470
+  },
+  {
+   "row": 469,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 427
+  },
+  {
+   "row": 470,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 21mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": 441
+  },
+  {
+   "row": 471,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 590
+  },
+  {
+   "row": 472,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 604
+  },
+  {
+   "row": 473,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 474,
+   "section": "Microwave Pocket Base - 1x drawer below (600mm Wide)",
+   "name": "Microwave pocket - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 476,
+   "header": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)"
+  },
+  {
+   "row": 477,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 16mm White HMR",
+   "labour": 400,
+   "material": 256
+  },
+  {
+   "row": 478,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 16mm Polytec Matt / Black HMR",
+   "labour": 400,
+   "material": 300
+  },
+  {
+   "row": 479,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 16mm Polytec Woodmatt / Smooth / Ravine",
+   "labour": 400,
+   "material": 411
+  },
+  {
+   "row": 480,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 16mm Nikpol Feelwood / Polytec 18mm Boston Oak Range",
+   "labour": 400,
+   "material": 446
+  },
+  {
+   "row": 481,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 18mm Polyurethane Flat Profile",
+   "labour": 400,
+   "material": 571
+  },
+  {
+   "row": 482,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 18mm NAV Urban Smooth /Sincro Evenex",
+   "labour": 400,
+   "material": 590
+  },
+  {
+   "row": 483,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 18mm Tesrol Supeclean G1S/18mm Navurban Diamond Finish/18mm Polytec Vennette",
+   "labour": 400,
+   "material": 620
+  },
+  {
+   "row": 484,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 18mm Polyurethane Shaker Profile Rail 40mm + (3mm recess)",
+   "labour": 400,
+   "material": 692
+  },
+  {
+   "row": 485,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 21mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": 714
+  },
+  {
+   "row": 486,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 25mm Polyurethane Shaker Profile (5mm recess)",
+   "labour": 400,
+   "material": 830
+  },
+  {
+   "row": 487,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 19mm American Oak Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 850
+  },
+  {
+   "row": 488,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 19mm Blackbutt Veneer G1S w/ Clear Polyurethane (crown cut)",
+   "labour": 400,
+   "material": 1090
+  },
+  {
+   "row": 489,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - 25mm Polyurethane Scandinavian Profile (White Mel Frame)",
+   "labour": 400,
+   "material": 1087
+  },
+  {
+   "row": 490,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - Farmers Doors Slimline Oak Stained (3mm recess)",
+   "labour": 400,
+   "material": 1130
+  },
+  {
+   "row": 491,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "WIP doors with jamb (2x hinged doors) - Farmers Doors Slimline Oak Stained (8mm recess)",
+   "labour": 400,
+   "material": 1190
+  },
+  {
+   "row": 493,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Inward swing hinges to 1x WIP Door (25mm doors needed)",
+   "labour": 400,
+   "material": 80
+  },
+  {
+   "row": 494,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Inwards swing hinges to 2x WIP Door (25mm doors needed)",
+   "labour": 400,
+   "material": 560
+  },
+  {
+   "row": 496,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Curve Door - Small x1",
+   "labour": 400,
+   "material": 1600
+  },
+  {
+   "row": 497,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Curve Door - Tall x1",
+   "labour": 400,
+   "material": 3100
+  },
+  {
+   "row": 498,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Curve - Island bench 900mm high x 450mm wide",
+   "labour": 400,
+   "material": 600
+  },
+  {
+   "row": 499,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Curve - Rangehood",
+   "labour": 400,
+   "material": 1400
+  },
+  {
+   "row": 500,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Curve - Scandinavian legs 900mm high x1",
+   "labour": 400,
+   "material": 1600
+  },
+  {
+   "row": 501,
+   "section": "WIP doors with jamb (2x hinged doors) - Frame To Match Door Material (2700mm H x 150mm D x 1200mm W)",
+   "name": "Curve - Tall curved void box laminated (North Kellyville Project)",
+   "labour": 400,
+   "material": 2100
+  },
+  {
+   "row": 503,
+   "header": "Hampton / Decorative Items"
+  },
+  {
+   "row": 504,
+   "section": "Hampton / Decorative Items",
+   "name": "2x 100mm Polyurethane shaker profile / v-groove island end panels",
+   "labour": 400,
+   "material": 2100
+  },
+  {
+   "row": 505,
+   "section": "Hampton / Decorative Items",
+   "name": "2x 100-150mm Polyurethane shaker profile boxed legs",
+   "labour": 400,
+   "material": 2100
+  },
+  {
+   "row": 506,
+   "section": "Hampton / Decorative Items",
+   "name": "Proud kick to boxed legs only",
+   "labour": 400,
+   "material": 100
+  },
+  {
+   "row": 507,
+   "section": "Hampton / Decorative Items",
+   "name": "Proud kick to back and sides of island",
+   "labour": 400,
+   "material": 600
+  },
+  {
+   "row": 509,
+   "section": "Hampton / Decorative Items",
+   "name": "Shaker profile using a prefinished board – Leon told me to price as $500 per door/drawer",
+   "labour": 400,
+   "material": 100
+  },
+  {
+   "row": 511,
+   "section": "Hampton / Decorative Items",
+   "name": "1x Tall Mitred panels 50mm - 150mm (Cost of material is based off LM rate)",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 513,
+   "section": "Hampton / Decorative Items",
+   "name": "Mitred Woodmatt Led (Add Labour Below)",
+   "labour": 400,
+   "material": -100
+  },
+  {
+   "row": 514,
+   "section": "Hampton / Decorative Items",
+   "name": "Labour to biscuit fixed shelf",
+   "labour": 400,
+   "material": -150
+  },
+  {
+   "row": 516,
+   "section": "Hampton / Decorative Items",
+   "name": "Return visit to install kickfaces",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 518,
+   "section": "Hampton / Decorative Items",
+   "name": "Mitred rangehoos box Labour only (Cost of material is based off LM rate)",
+   "labour": 400,
+   "material": 50
+  },
+  {
+   "row": 520,
+   "section": "Hampton / Decorative Items",
+   "name": "Mesh Inserts Base & Wall door (Black Perferated Metal From Lincoln)",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 521,
+   "section": "Hampton / Decorative Items",
+   "name": "Mesh Inserts Tall door (Black Perferated Metal From Lincoln)",
+   "labour": 400,
+   "material": 150
+  },
+  {
+   "row": 523,
+   "section": "Hampton / Decorative Items",
+   "name": "Lamination of Pivot Door",
+   "labour": 400,
+   "material": 1600
+  },
+  {
+   "row": 525,
+   "section": "Hampton / Decorative Items",
+   "name": "Shadowline small job",
+   "labour": 400,
+   "material": -50
+  },
+  {
+   "row": 526,
+   "section": "Hampton / Decorative Items",
+   "name": "Shadowline medium job",
+   "labour": 400,
+   "material": 100
+  },
+  {
+   "row": 527,
+   "section": "Hampton / Decorative Items",
+   "name": "Shadowline large job",
+   "labour": 400,
+   "material": 250
+  },
+  {
+   "row": 529,
+   "header": "Laminating Doors and Tops by Super Benchtops"
+  },
+  {
+   "row": 530,
+   "section": "Laminating Doors and Tops by Super Benchtops",
+   "name": "*2x doors in Polytec Woodmatt",
+   "labour": 400,
+   "material": 0
+  },
+  {
+   "row": 531,
+   "section": "Laminating Doors and Tops by Super Benchtops",
+   "name": "*1x top in Polytec Woodmatt",
+   "labour": 400,
+   "material": -140
+  },
+  {
+   "row": 535,
+   "header": "MISCELLANEOUS - SERVICE / GOODS"
+  },
+  {
+   "row": 536,
+   "section": "MISCELLANEOUS - SERVICE / GOODS",
+   "name": "Delivery local",
+   "labour": 400,
+   "material": 400
+  },
+  {
+   "row": 537,
+   "section": "MISCELLANEOUS - SERVICE / GOODS",
+   "name": "Delivery City or Hard access",
+   "labour": 400,
+   "material": 600
+  },
+  {
+   "row": 538,
+   "section": "MISCELLANEOUS - SERVICE / GOODS",
+   "name": "Extra install fee (Price can vary depending on what extras you believe the installer will be doing on site)",
+   "labour": 400,
+   "material": 1100
+  },
+  {
+   "row": 539,
+   "section": "MISCELLANEOUS - SERVICE / GOODS",
+   "name": "Handles",
+   "labour": 400,
+   "material": -300
+  },
+  {
+   "row": 540,
+   "section": "MISCELLANEOUS - SERVICE / GOODS",
+   "name": "Extras",
+   "labour": 400,
+   "material": -400
+  },
+  {
+   "row": 550,
+   "section": "MISCELLANEOUS - SERVICE / GOODS",
+   "name": "MISCELLANEOUS - SERVICE / GOODS (TOTAL)",
+   "labour": 2000,
+   "material": 1400
+  }
+ ],
+ "materials": [
+  {
+   "supplier": "POLYTEC",
+   "product": "HMR White Texture",
+   "thickness": "16mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 13.26,
+   "sheetRate": 57.28
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Paritical Board Oyster Grey",
+   "thickness": "16mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 22.07,
+   "sheetRate": 63.57
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "White Satin",
+   "thickness": "18mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 18.22,
+   "sheetRate": 78.74
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "White Satin",
+   "thickness": "21mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 26.12,
+   "sheetRate": 112.86
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Matt",
+   "thickness": "16mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 26.03,
+   "sheetRate": 74.99
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Matt",
+   "thickness": "16mm",
+   "sheetSize": "3100 x 1200",
+   "m2Rate": 26.16,
+   "sheetRate": 97.34
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Woodmatt",
+   "thickness": "16mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 53.14,
+   "sheetRate": 153.05
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Woodmatt",
+   "thickness": "16mm",
+   "sheetSize": "3100 x 1200",
+   "m2Rate": 53.4,
+   "sheetRate": 198.65
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Woodmatt",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 71.48,
+   "sheetRate": 205.89
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Woodmatt",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1800",
+   "m2Rate": 62.22,
+   "sheetRate": 403.19
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Smooth",
+   "thickness": "16mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 46.48,
+   "sheetRate": 133.88
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Smooth",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1800",
+   "m2Rate": 64.04,
+   "sheetRate": 415.04
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Ravine",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 48.01,
+   "sheetRate": 138.27
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Ravine",
+   "thickness": "18mm",
+   "sheetSize": "3100 x 1200",
+   "m2Rate": 48.24,
+   "sheetRate": 179.47
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Venette MLB",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 87.31,
+   "sheetRate": 251.48
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Venette MLB",
+   "thickness": "18mm",
+   "sheetSize": "3100 x 1200",
+   "m2Rate": 87.73,
+   "sheetRate": 326.39
+  },
+  {
+   "supplier": "POLYTEC",
+   "product": "Venette MLB*",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 170.58,
+   "sheetRate": 491.1,
+   "note": "*Matching line back MLB"
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G1S*",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 84.41,
+   "sheetRate": 243.12
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G2S",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 120.1,
+   "sheetRate": 346.08
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G1S",
+   "thickness": "18mm",
+   "sheetSize": "3000 x 1200",
+   "m2Rate": 84.42,
+   "sheetRate": 303.92
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G2S",
+   "thickness": "18mm",
+   "sheetSize": "3000 x 1200",
+   "m2Rate": 120.1,
+   "sheetRate": 432.6
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G1S",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 105.5,
+   "sheetRate": 303.9
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G2S",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 150,
+   "sheetRate": 432
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G1S",
+   "thickness": "25mm",
+   "sheetSize": "3000 X 1200",
+   "m2Rate": 105.5,
+   "sheetRate": 379.89
+  },
+  {
+   "supplier": "TESROL",
+   "product": "Superclean Carbon G2S",
+   "thickness": "25mm",
+   "sheetSize": "3000 X 1200",
+   "m2Rate": 150,
+   "sheetRate": 540.74,
+   "note": "*Matching line back MLB"
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G1S*",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 70.08,
+   "sheetRate": 201.8
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G1S*",
+   "thickness": "18mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 70.08,
+   "sheetRate": 302.74
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G2S",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 81.77,
+   "sheetRate": 235.49
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G2S",
+   "thickness": "18mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 81.77,
+   "sheetRate": 353.2
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G1S*",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 76.9,
+   "sheetRate": 221.47
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G1S*",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 76.9,
+   "sheetRate": 332.2
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G2S",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 88.58,
+   "sheetRate": 255.11
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Urban G2S",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 88.58,
+   "sheetRate": 382.66
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G1S*",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 74.84,
+   "sheetRate": 215.5
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G1S*",
+   "thickness": "18mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 74.84,
+   "sheetRate": 323.3
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G2S",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 87.32,
+   "sheetRate": 251.48
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G2S",
+   "thickness": "18mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 87.32,
+   "sheetRate": 377.22
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G1S*",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 82.13,
+   "sheetRate": 236.53
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G1S*",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 82.13,
+   "sheetRate": 354.8
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G2S",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 94.6,
+   "sheetRate": 272.44
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Diamond G2S",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 94.6,
+   "sheetRate": 408.67
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAVENEER G2S",
+   "thickness": "19mm",
+   "sheetSize": "300x1200",
+   "m2Rate": 163,
+   "sheetRate": 588
+  },
+  {
+   "supplier": "NEW AGE VENEERS (NAV)",
+   "product": "NAV Compact",
+   "thickness": "",
+   "sheetSize": "2745 x 1255",
+   "m2Rate": 177.18,
+   "sheetRate": 609.51,
+   "note": "* G1S Back is white"
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Crown Cut G1S*",
+   "thickness": "19mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Crown Cut G1S*",
+   "thickness": "19mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Crown Cut G1S*",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Crown Cut G1S*",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Crown Cut G1S*",
+   "thickness": "50mm",
+   "sheetSize": "3000 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Quarter Cut G1S*",
+   "thickness": "19mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Quarter Cut G1S*",
+   "thickness": "19mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Quarter Cut G1S*",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Quarter Cut G1S*",
+   "thickness": "25mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": null,
+   "sheetRate": null
+  },
+  {
+   "supplier": "CONSOLIDATED PANELS AND VENEERS",
+   "product": "Amerian Oak Quarter Cut G1S*",
+   "thickness": "50mm",
+   "sheetSize": "3000 x 1200",
+   "m2Rate": null,
+   "sheetRate": null,
+   "note": "*G1S with matching downgraded back"
+  },
+  {
+   "supplier": "SCANDINAVIAN PROFILES",
+   "product": "MDF - All profiles (for panels)",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 130.2,
+   "sheetRate": 375
+  },
+  {
+   "supplier": "SCANDINAVIAN PROFILES",
+   "product": "MDF - All profiles (for panels)",
+   "thickness": "18mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 128.4,
+   "sheetRate": 555
+  },
+  {
+   "supplier": "SCANDINAVIAN PROFILES",
+   "product": "MDF - All profiles (for doors)",
+   "thickness": "25mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 145.8,
+   "sheetRate": 420
+  },
+  {
+   "supplier": "SCANDINAVIAN PROFILES",
+   "product": "Flex - All profiles",
+   "thickness": "5mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 138.8,
+   "sheetRate": 400,
+   "note": "Battened profile can only be offered RAW for client to paint. Other profiles can be with poly finish"
+  },
+  {
+   "supplier": "LAMINEX (TRADEMASTER SUPPLIER)",
+   "product": "HMR Black",
+   "thickness": "16mm",
+   "sheetSize": "3600 x 1200",
+   "m2Rate": 25.46,
+   "sheetRate": 110
+  },
+  {
+   "supplier": "LAMINEX (TRADEMASTER SUPPLIER)",
+   "product": "Black Satin",
+   "thickness": "18mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 52.78,
+   "sheetRate": 152
+  },
+  {
+   "supplier": "NIKPOL",
+   "product": "Feelwood",
+   "thickness": "18mm",
+   "sheetSize": "2800 x 2070",
+   "m2Rate": 62.2,
+   "sheetRate": 360.8,
+   "note": "*1x free cut to 1200"
+  },
+  {
+   "supplier": "NOVER",
+   "product": "White Satin",
+   "thickness": "21mm",
+   "sheetSize": "3100 x 1200",
+   "m2Rate": 29.56,
+   "sheetRate": 110
+  },
+  {
+   "supplier": "NOVER",
+   "product": "EVA Board",
+   "thickness": "16mm",
+   "sheetSize": "2400 x 1200",
+   "m2Rate": 63,
+   "sheetRate": 180
+  },
+  {
+   "supplier": "POLY SPRAY (per m², + GST)",
+   "product": "Flat single sided",
+   "thickness": "",
+   "sheetSize": "",
+   "m2Rate": 65,
+   "sheetRate": null
+  },
+  {
+   "supplier": "POLY SPRAY (per m², + GST)",
+   "product": "Flat double sided",
+   "thickness": "",
+   "sheetSize": "",
+   "m2Rate": 140,
+   "sheetRate": null
+  },
+  {
+   "supplier": "POLY SPRAY (per m², + GST)",
+   "product": "Shaker",
+   "thickness": "",
+   "sheetSize": "",
+   "m2Rate": 100,
+   "sheetRate": null
+  },
+  {
+   "supplier": "POLY SPRAY (per m², + GST)",
+   "product": "Detail Profile",
+   "thickness": "",
+   "sheetSize": "",
+   "m2Rate": 185,
+   "sheetRate": null
+  },
+  {
+   "supplier": "POLY SPRAY (per m², + GST)",
+   "product": "Scandi Profile",
+   "thickness": "",
+   "sheetSize": "",
+   "m2Rate": 140,
+   "sheetRate": null
+  },
+  {
+   "supplier": "POLY SPRAY (per m², + GST)",
+   "product": "Oak Stain + Poly",
+   "thickness": "",
+   "sheetSize": "",
+   "m2Rate": 100,
+   "sheetRate": null
+  },
+  {
+   "supplier": "POLY SPRAY (per m², + GST)",
+   "product": "Oak Clear Poly",
+   "thickness": "",
+   "sheetSize": "",
+   "m2Rate": 80,
+   "sheetRate": null
+  }
+ ]
+}
